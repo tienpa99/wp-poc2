@@ -1,0 +1,255 @@
+# Copyright (C) 2016 Maintenance Switch
+# This file is distributed under the same license as the Maintenance Switch package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Switch\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/maintenance-"
+"switch\n"
+"POT-Creation-Date: 2016-09-26 12:26+0100\n"
+"PO-Revision-Date: 2018-01-19 18:06+0100\n"
+"Last-Translator: Vincent LALANNE <info@fugu.fr>\n"
+"Language-Team: Fugu <support@fugu.fr>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_x;_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-maintenance-switch-admin.php:122
+#: admin/class-maintenance-switch-admin.php:123
+msgid "Maintenance Switch"
+msgstr ""
+
+#: admin/class-maintenance-switch-admin.php:139
+msgid "Settings"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:76
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:77
+msgid "Preview page"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:81
+msgid "Default settings"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:85
+msgid "Restore all settings"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:85
+msgid "Are you sure you want to retore all the default settings?"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:90
+msgid "Restore page HTML"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:90
+msgid "Are you sure you want to retore the default HTML code?"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:96
+msgid "Create file in the theme"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:96
+msgid "Are you sure you want to create the file in your theme?"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:101
+msgid "Delete file in the theme"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:101
+msgid "Are you sure you want to delete the file in your theme?"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:126
+msgid "Display"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:133
+msgid "Maintenance page HTML:"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:141
+msgid "Use theme file:"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:149
+msgid "Permissions"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:156
+msgid "Switch ability:"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:164
+msgid "Bypass ability:"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:180
+msgid "Behavior"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:187
+msgid "Code 503:"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:272
+msgid ""
+"The maintenance page returns the error code 503 \"Service unavailable"
+"\" (recommanded)."
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:289
+msgid ""
+"The user roles can access the maintenance button in the adminbar and so "
+"switch the maintenance mode."
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:306
+msgid ""
+"The user roles can bypass the maintenance mode and see the site like online."
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:320
+msgid "Add my IP"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:322
+msgid ""
+"The IP list can bypass the maintenance mode and see the site like online, "
+"comma separated."
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:338
+msgid "The entire HTML code of the maintenance page."
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:356
+msgid ""
+"Use a file in your theme to display maintenance page instead of the HTML "
+"field above."
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:362
+msgid "exists"
+msgstr ""
+
+#: admin/views/maintenance-switch-admin-display.php:362
+msgid "is missing"
+msgstr ""
+
+#: includes/class-maintenance-switch.php:260
+msgid "Default settings successfuly restored."
+msgstr ""
+
+#: includes/class-maintenance-switch.php:262
+msgid "Default settings was not restored."
+msgstr ""
+
+#: includes/class-maintenance-switch.php:268
+msgid "HTML code successfuly restored."
+msgstr ""
+
+#: includes/class-maintenance-switch.php:270
+msgid "HTML code could was not restored."
+msgstr ""
+
+#: includes/class-maintenance-switch.php:277
+msgid "The theme file was created successfuly."
+msgstr ""
+
+#: includes/class-maintenance-switch.php:279
+msgid "The theme file was not created."
+msgstr ""
+
+#: includes/class-maintenance-switch.php:286
+msgid "The theme file was deleted successfuly"
+msgstr ""
+
+#: includes/class-maintenance-switch.php:288
+msgid "The theme file was not deleted."
+msgstr ""
+
+#: includes/class-maintenance-switch.php:1025
+msgid "Maintenance"
+msgstr ""
+
+#: includes/config.php:32
+msgid ""
+"In a permanent effort to improve our services, we currently are performing "
+"upgrades on our website."
+msgstr ""
+
+#: includes/config.php:33
+msgid ""
+"We apologize for the inconvenience, but we will be pleased to see you back "
+"in a very few minutes."
+msgstr ""
+
+#: includes/config.php:35
+msgid "The maintenance team."
+msgstr ""
+
+#~ msgid "Ajust the behavior of the plugin."
+#~ msgstr "Ajustez le comportement du plugin."
+
+#~ msgid "Ajust the appearance of the maintenance page"
+#~ msgstr "Ajustez l'apparence de la page de maintenance"
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid "General settings for the plugin."
+#~ msgstr "Paramètres généraux du plugin."
+
+#~ msgid "Maintenance turned on."
+#~ msgstr "Maintenance activée."
+
+#~ msgid "Maintenance could not be turned on."
+#~ msgstr "La maintenance ne peut être activée."
+
+#~ msgid "Maintenance turned off."
+#~ msgstr "Maintenance désactivée."
+
+#~ msgid "Maintenance could not be turned off."
+#~ msgstr "La maintenance ne peut être désactivée."
+
+#~ msgid "Display settings"
+#~ msgstr "Réglages de l'affichage"
+
+#~ msgid "Authorized IPs, comma separated."
+#~ msgstr "IPs autorisées, séparées par des virgules."
+
+#~ msgid "Restore default html code"
+#~ msgstr "Restaurer la page HTML"
+
+#~ msgid "Save Changes"
+#~ msgstr "Enregistrer"
+
+#~ msgid "https://wordpress.org/plugins/maintenance-switch"
+#~ msgstr "https://wordpress.org/plugins/maintenance-switch"
+
+#~ msgid ""
+#~ "Customize and switch easily and simply in (native) maintenance mode from "
+#~ "your backend or frontend."
+#~ msgstr ""
+#~ "Personnalisez et passez facilement et simplement en mode maintenance "
+#~ "(natif) depuis votre backend ou frontend."
+
+#~ msgid "Fugu"
+#~ msgstr "Fugu"
+
+#~ msgid "http://www.fugu.fr"
+#~ msgstr "http://www.fugu.fr"

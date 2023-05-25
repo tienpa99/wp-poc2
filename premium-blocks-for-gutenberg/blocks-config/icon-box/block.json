@@ -1,0 +1,187 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "version": "0.1.0",
+    "name": "premium/icon-box",
+    "title": "Icon Box",
+    "description": "Add informative info boxes along with Icon, Description, and CTA using Premium Icon Box Block.yh",
+    "keywords": [
+        "Icon",
+        "Font Awesome",
+        "Box"
+    ],
+    "category": "premium-blocks",
+    "attributes": {
+        "blockId": {
+            "type": "string"
+        },
+        "hideDesktop": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideTablet": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideMobile": {
+            "type": "boolean",
+            "default": ""
+        },
+        "containerMargin": {
+            "type": "object",
+            "default": {
+                "Desktop": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Tablet": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Mobile": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "unit": "px"
+            }
+        },
+        "containerPadding": {
+            "type": "object",
+            "default": {
+                "Desktop": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Tablet": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Mobile": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "unit": "px"
+            }
+        },
+        "containerBorder": {
+            "type": "object",
+            "default": {
+                "borderColor": "",
+                "borderType": "none",
+                "borderRadius": {
+                    "Desktop": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                },
+                "borderWidth": {
+                    "Desktop": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                }
+            }
+        },
+        "containerBackground": {
+            "type": "object",
+            "default": {
+                "backgroundType": "",
+                "backgroundColor": "",
+                "backgroundImageID": "",
+                "backgroundImageURL": "",
+                "backgroundPosition": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": ""
+                },
+                "backgroundRepeat": {
+                    "Desktop": "no-repeat",
+                    "Tablet": "",
+                    "Mobile": ""
+                },
+                "backgroundSize": {
+                    "Desktop": "cover",
+                    "Tablet": "",
+                    "Mobile": ""
+                },
+                "fixed": false,
+                "gradientLocationOne": "0",
+                "gradientColorTwo": "",
+                "gradientLocationTwo": "100",
+                "gradientAngle": "180",
+                "gradientPosition": "center center",
+                "gradientType": "linear"
+            }
+        },
+        "containerShadow": {
+            "type": "object",
+            "default": {
+                "color": "transparent",
+                "blur": "10",
+                "horizontal": "0",
+                "vertical": "0",
+                "position": ""
+            }
+        },
+        "containerHoverShadow": {
+            "type": "object",
+            "default": {
+                "color": "transparent",
+                "blur": "10",
+                "horizontal": "0",
+                "vertical": "0",
+                "position": ""
+            }
+        },
+        "align": {
+            "type": "object",
+            "default": {
+                "Desktop": "center",
+                "Tablet": "",
+                "Mobile": ""
+            }
+        }
+    },
+    "editorScript": "pbg-blocks-js",
+    "editorStyle": "premium-blocks-editor-css"
+}

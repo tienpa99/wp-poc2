@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/js/public/ie-redirect.js"],
+  "sourcesContent": ["try {\n  (() => {\n  })();\n  new MutationObserver(function() {\n  });\n  new PerformanceObserver(function() {\n  });\n  Object.assign({}, {});\n  document.fonts.ready.then(function() {\n  });\n} catch (e) {\n  var replacement = \"wpmeteordisable=1\";\n  var href = document.location.href;\n  if (!href.match(/[?&]wpmeteordisable/)) {\n    var nhref = \"\";\n    if (href.indexOf(\"?\") == -1) {\n      if (href.indexOf(\"#\") == -1) {\n        nhref = href + \"?\" + replacement;\n      } else {\n        nhref = href.replace(\"#\", \"?\" + replacement + \"#\");\n      }\n    } else {\n      if (href.indexOf(\"#\") == -1) {\n        nhref = href + \"&\" + replacement;\n      } else {\n        nhref = href.replace(\"#\", \"&\" + replacement + \"#\");\n      }\n    }\n    document.location.href = nhref;\n  }\n}\n//# sourceMappingURL=ie-redirect.js.map\n"],
+  "mappings": "MAAA,GAAI,CAGF,IAAI,iBAAiB,UAAW,CAChC,CAAC,EACD,IAAI,oBAAoB,UAAW,CACnC,CAAC,EACD,OAAO,OAAO,CAAC,EAAG,CAAC,CAAC,EACpB,SAAS,MAAM,MAAM,KAAK,UAAW,CACrC,CAAC,CACH,MAAE,CACIA,EAAc,oBACdC,EAAO,SAAS,SAAS,KACxBA,EAAK,MAAM,qBAAqB,IAC/BC,EAAQ,GACRD,EAAK,QAAQ,GAAG,GAAK,GACnBA,EAAK,QAAQ,GAAG,GAAK,GACvBC,EAAQD,EAAO,IAAMD,EAErBE,EAAQD,EAAK,QAAQ,IAAK,IAAMD,EAAc,GAAG,EAG/CC,EAAK,QAAQ,GAAG,GAAK,GACvBC,EAAQD,EAAO,IAAMD,EAErBE,EAAQD,EAAK,QAAQ,IAAK,IAAMD,EAAc,GAAG,EAGrD,SAAS,SAAS,KAAOE,EAE7B,CAnBM,IAAAF,EACAC,EAEEC",
+  "names": ["replacement", "href", "nhref"]
+}

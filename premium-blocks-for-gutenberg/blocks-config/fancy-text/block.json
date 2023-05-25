@@ -1,0 +1,204 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "version": "0.1.0",
+    "name": "premium/fancy-text",
+    "title": "Fancy Text",
+    "description": "Insert animated headlines across your Gutenberg page using Premium Fancy Text Block.",
+    "keywords": ["fancy-text", "animated-text", "animated"],
+    "category": "premium-blocks",
+    "attributes": {
+        "blockId": {
+            "type": "string"
+        },
+        "classMigrate": {
+            "type": "boolean",
+            "default": ""
+        },
+        "fancyContentAlign": {
+            "type": "object",
+            "default": {
+                "Desktop": "center",
+                "Tablet": "center",
+                "Mobile": "center"
+            }
+        },
+        "prefix": {
+            "type": "string",
+            "default": "This is"
+        },
+        "suffix": {
+            "type": "string",
+            "default": "Text"
+        },
+        "repeaterFancyText": {
+            "type": "array",
+            "default": [
+                {
+                    "title": "Designer",
+                    "edit": false
+                },
+                {
+                    "title": "Awesome",
+                    "edit": false
+                },
+                {
+                    "title": "Developer",
+                    "edit": false
+                }
+            ]
+        },
+        "effect": {
+            "type": "string",
+            "default": "typing"
+        },
+        "loop": {
+            "type": "boolean",
+            "default": "true"
+        },
+        "cursorShow": {
+            "type": "boolean",
+            "default": "true"
+        },
+        "cursorMark": {
+            "type": "string",
+            "default": "|"
+        },
+        "typeSpeed": {
+            "type": "number",
+            "default": 100
+        },
+        "backdelay": {
+            "type": "number",
+            "default": 30
+        },
+        "startdelay": {
+            "type": "number",
+            "default": 30
+        },
+        "backSpeed": {
+            "type": "number",
+            "default": 30
+        },
+        "animationSpeed": {
+            "type": "number",
+            "default": 200
+        },
+        "pauseTime": {
+            "type": "number",
+            "default": 3000
+        },
+        "hoverPause": {
+            "type": "boolean",
+            "default": false
+        },
+        "fancyTextAlign": {
+            "type": "object",
+            "default": {
+                "Desktop": "center",
+                "Tablet": "center",
+                "Mobile": "center"
+            }
+        },
+        "hideDesktop": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideTablet": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideMobile": {
+            "type": "boolean",
+            "default": ""
+        },
+        "fancyStyles": {
+            "type": "array",
+            "default": [
+                {
+                    "fancyTextColor": "var(--pbg-global-color1,#0085BA)",
+                    "fancyTextBGColor": "",
+                    "fancyTextBGOpacity": 1,
+                    "cursorColor": ""
+                }
+            ]
+        },
+        "PreStyles": {
+            "type": "array",
+            "default": [
+                {
+                    "textColor": "",
+                    "textBGColor": "",
+                    "textBGOpacity": 1
+                }
+            ]
+        },
+        "prefixTypography": {
+            "type": "object",
+            "default": {
+                "fontWeight": "Default",
+                "fontStyle": "",
+                "letterSpacing": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                },
+                "fontFamily": "Default",
+                "lineHeight": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                },
+                "textDecoration": "",
+                "textTransform": "",
+                "fontSize": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                }
+            }
+        },
+        "fancyTextTypography": {
+            "type": "object",
+            "default": {
+                "fontWeight": "Default",
+                "fontStyle": "",
+                "letterSpacing": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                },
+                "fontFamily": "Default",
+                "lineHeight": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                },
+                "textDecoration": "",
+                "textTransform": "",
+                "fontSize": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                }
+            }
+        },
+        "fancyTextShadow": {
+            "type": "object",
+            "default": {
+                "color": "transparent",
+                "blur": "10",
+                "horizontal": "0",
+                "vertical": "0"
+            }
+        }
+    },
+    "editorScript": "pbg-blocks-js",
+    "editorStyle": "premium-blocks-editor-css"
+}

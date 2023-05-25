@@ -1,0 +1,19 @@
+.convertkit-quicktags-modal .media-modal {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+}
+.convertkit-quicktags-modal .media-modal .media-modal-content {
+	min-height: auto;
+}
+.convertkit-quicktags-modal .media-modal .media-modal-content .media-frame-title {
+	left: 0;
+	height: 30px;
+}
+.convertkit-quicktags-modal .media-modal .media-frame-content {
+	left: 0;
+	top: 54px;
+	bottom: 0;
+}

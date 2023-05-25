@@ -1,0 +1,13 @@
+span.members-only {
+  background: #d63638;
+  color: #fff;
+  font-size: 9px;
+  display: inline-block;
+  padding: 0px 5px;
+  border-radius: 9px;
+  margin: 0 0;
+  -webkit-user-select: none;
+  user-select: none;
+  line-height:  18px;
+  font-weight: 400;
+}

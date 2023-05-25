@@ -1,0 +1,219 @@
+# Copyright (C) 2022 Aruba.it
+# This file is distributed under the same license as the Aruba HiSpeed Cache plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Aruba HiSpeed Cache 0.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/aruba-hispeed-cache\n"
+"POT-Creation-Date: 2022-05-27T16:49:50+02:00\n"
+"PO-Revision-Date: 2022-05-27 16:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: Aruba Developer <hispeedcache.developer@aruba.it>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: aruba-hispeed-cache\n"
+
+#. Plugin Name of the plugin
+#: \includes\ArubaHiSpeedCacheAdmin.php:145
+#: \includes\ArubaHiSpeedCacheAdmin.php:146
+#: \includes\ArubaHiSpeedCacheAdmin.php:154
+#: \includes\ArubaHiSpeedCacheAdmin.php:155
+msgid "Aruba HiSpeed Cache"
+msgstr "Aruba HiSpeed Cache"
+
+#. Plugin URI of the plugin
+#| msgid "https://www.aruba.it/"
+msgid "https://hosting.aruba.it/wordpress.aspx"
+msgstr "https://hosting.aruba.it/wordpress.aspx"
+
+#. Description of the plugin
+msgid ""
+"Aruba HiSpeed Cache interfaces directly with an Aruba hosting platform's HiSpeed "
+"Cache service and automates its management."
+msgstr ""
+"Aruba HiSpeed ​​​​Cache interactúa directamente con un servicio HiSpeed Cache de la "
+"plataforma de alojamiento de Aruba y automatiza su gestión."
+
+#. Author of the plugin
+msgid "Aruba.it"
+msgstr "Aruba.it"
+
+#. Author URI of the plugin
+msgid "https://www.aruba.it/"
+msgstr "https://www.aruba.it/"
+
+#: \admin\partials\admin-display.php:9
+msgid "Aruba HiSpeed Cache Settings "
+msgstr "Ajustes de Aruba HiSpeed Cache "
+
+#: \admin\partials\admin-general-options.php:74
+msgid "Save changes"
+msgstr "Guardar los cambios"
+
+#: \admin\partials\admin-general-options.php:79
+msgid "Purge entire cache"
+msgstr "Vaciar toda la caché"
+
+#: \admin\partials\admin-notice-not-aruba-server.php:5
+msgid ""
+"<strong>The Aruba HiSpeed Cache plugin cannot be used because your WordPress "
+"website is not hosted on an Aruba hosting platform.</strong> Buy an <a href=\"%s"
+"\" rel=\"nofollow\" target=\"_blank\">Aruba hosting</a> service and migrate your "
+"website to use the plugin."
+msgstr ""
+"<strong>El plugin Aruba HiSpeed ​​​​Cache no se puede usar porque tu sitio web de "
+"WordPress no está alojado en la plataforma de hosting de Aruba.</strong> Compra "
+"un servicio <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">hosting de Aruba</"
+"a> y luego migra tu web para usar el plugin."
+
+#: \admin\partials\admin-notice-purge-completed.php:4
+msgid "Purge completed"
+msgstr "Vaciado terminado"
+
+#: \admin\partials\admin-notice-service-available.php:4
+msgid ""
+"<strong>The HiSpeed Cache feature is not enabled.</strong> To enable it, go to "
+"your domain <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">control panel</a>. "
+"For further details <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">see our "
+"guide</a>."
+msgstr ""
+"<strong>El servicio HiSpeed ​​Cache no está activado.</strong> Para activarlo, "
+"inicia sesión en el <a href=\"%s\" rel=\"nofollow\" target=\"_blank\">panel de "
+"control</a> de tu dominio. Para más información <a href=\"%s\" rel=\"nofollow\" "
+"target=\"_blank\">consulta nuestra guía</a>."
+
+#: \admin\partials\admin-notice-service-unavailable.php:5
+msgid ""
+"<strong>The HiSpeed Cache feature, with which the plugin interfaces, is not "
+"available on the server that hosts your website.</strong> To use HiSpeed Cache "
+"and the plugin, contact <a href=\"%s\" rel=\"nofollow\" target=\"_blank"
+"\">support</a>."
+msgstr ""
+"<strong>El servicio HiSpeed ​​​​Cache, con el que interactúa el plugin, no está "
+"disponible en el servidor donde está alojado tu sitio web.</strong> Para usar "
+"HiSpeed Cache y el plugin, ponte en contacto con nuestra <a href=\"%s\" rel="
+"\"nofollow\" target=\"_blank\">asistencia</a>."
+
+#: \admin\partials\admin-notice-settings-saved.php:4
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: \admin\partials\admin-notice-version.php:10
+msgid "Sorry, Aruba HiSpeed Cache requires WordPress %s or higher."
+msgstr "Lo siento, Aruba HiSpeed Cache necesita WordPress %s o superior."
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:130
+msgid "You are about to purge the entire cache. Do you want to continue?"
+msgstr "Estás a punto de vaciar toda la caché. ¿Quieres continuar?"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:172
+msgid "Sorry, you need to be an administrator to use Aruba HiSpeed Cache."
+msgstr "Lo siento, tienes que ser administrador para usar Aruba HiSpeed Cache."
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:192
+msgid "Purge the page cache"
+msgstr "Vaciar la caché de la página"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:196
+msgid "Purge Cache"
+msgstr "Vaciar la caché"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:261
+msgid "Settings"
+msgstr "Ajustes"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:267
+msgid "Customer service"
+msgstr "Servicio clientes"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:427
+#: \includes\ArubaHiSpeedCacheAdmin.php:428
+msgid "Purging options"
+msgstr "Opciones de vaciado"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:435
+msgid "Enable automatic purge"
+msgstr "Activar el vaciado automático"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:453
+msgid "Automatically purge entire cache when:"
+msgstr "Vaciar automáticamente toda la caché cuando:"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:458
+#: \includes\ArubaHiSpeedCacheAdmin.php:459
+msgid "Home page:"
+msgstr "Página de inicio:"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:466
+#: \includes\ArubaHiSpeedCacheAdmin.php:518
+msgid ""
+"a <strong>post</strong> (or page/custom post) is <strong>modified</strong> or "
+"<strong>added</strong>."
+msgstr ""
+"se <strong>modifica</strong> o se <strong>añade</strong> una <strong>entrada</"
+"strong> (o página/custom post)"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:473
+#: \includes\ArubaHiSpeedCacheAdmin.php:525
+msgid ""
+"a <strong>published post</strong> (or page/custom post) is <strong>cancelled</"
+"strong>."
+msgstr ""
+"se <strong>cancela</strong> la publicación de una <strong>entrada publicada</"
+"strong> (o página/contenido personalizado)."
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:480
+#: \includes\ArubaHiSpeedCacheAdmin.php:481
+msgid "Post/page/custom post type:"
+msgstr "Entrada/página/tipo de contenido personalizado (cpt):"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:488
+msgid "a <strong>post</strong> is <strong>published</strong>."
+msgstr "se <strong>publica</strong> una <strong>entrada</strong>."
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:495
+#: \includes\ArubaHiSpeedCacheAdmin.php:540
+msgid "a <strong>comment</strong> is <strong>approved/published</strong>."
+msgstr "se <strong>aprueba/publica</strong> un <strong>comentario</strong>."
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:502
+#: \includes\ArubaHiSpeedCacheAdmin.php:547
+msgid "a <strong>comment</strong> is <strong>unapproved/deleted</strong>."
+msgstr "se <strong>rechaza/borra</strong> un <strong>comentario</strong>."
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:509
+#: \includes\ArubaHiSpeedCacheAdmin.php:511
+msgid "Archives:"
+msgstr "Archivos:"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:510
+msgid "(date, category, tag, author, custom taxonomies)"
+msgstr "(fecha, categoría, etiqueta, autor, taxonomías personalizadas)"
+
+#: \includes\ArubaHiSpeedCacheAdmin.php:532
+#: \includes\ArubaHiSpeedCacheAdmin.php:533
+msgid "Comments:"
+msgstr "Comentarios:"
+
+#: \includes\ArubaHiSpeedCacheWpPurger.php:259
+msgid "An error has occurred."
+msgstr "Ha ocurrido un error."
+
+#: \includes\ArubaHiSpeedCacheWpPurger.php:260
+msgid "Sorry, you do not have the necessary privileges to edit these options."
+msgstr "Lo siento, no tienes los permisos necesarios para editar estas opciones."
+
+#: \includes\ArubaHiSpeedCacheWpPurger.php:265
+msgid "Contact customer service"
+msgstr "Contactar con el servicio al cliente"
+
+#~ msgid ""
+#~ "https://www.aruba.it/magazine/hosting/siti-piu-veloci-con-hispeed-cache.aspx"
+#~ msgstr ""
+#~ "https://www.aruba.it/magazine/hosting/siti-piu-veloci-con-hispeed-cache.aspx"
+
+#~ msgid "Purges the cache whenever a post is edited or published."
+#~ msgstr "Borrar la caché cada vez que se publique o modifique un artículo."

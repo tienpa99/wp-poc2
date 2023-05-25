@@ -1,0 +1,136 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "version": "0.1.0",
+    "name": "premium/buttons",
+    "title": "Buttons",
+    "description": "Add stylish buttons to your Gutenberg page using Premium Button Block.",
+    "category": "premium-blocks",
+    "keywords": [
+        "button",
+        "groups"
+    ],
+    "attributes": {
+        "blockId": {
+            "type": "string"
+        },
+        "align": {
+            "type": "object",
+            "default": {
+                "Desktop": "",
+                "Tablet": "",
+                "Mobile": ""
+            }
+        },
+        "hideDesktop": {
+            "type": "boolean",
+            "default": false
+        },
+        "classMigrate": {
+            "type": "boolean",
+            "default": false
+        },
+        "hideTablet": {
+            "type": "boolean",
+            "default": false
+        },
+        "hideMobile": {
+            "type": "boolean",
+            "default": false
+        },
+        "typography": {
+            "type": "object",
+            "default": {
+                "fontWeight": "Default",
+                "fontStyle": "",
+                "letterSpacing": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                },
+                "fontFamily": "Default",
+                "lineHeight": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                },
+                "textDecoration": "",
+                "textTransform": "",
+                "fontSize": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": "",
+                    "unit": "px"
+                }
+            }
+        },
+        "groupMargin": {
+            "type": "object",
+            "default": {
+                "Desktop": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Tablet": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Mobile": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "unit": "px"
+            }
+        },
+        "groupPadding": {
+            "type": "object",
+            "default": {
+                "Desktop": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Tablet": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Mobile": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "unit": "px"
+            }
+        },
+        "groupAlign": {
+            "type": "object",
+            "default": {
+                "Desktop": "horizontal",
+                "Tablet": "horizontal",
+                "Mobile": "horizontal"
+            }
+        },
+        "buttonGap": {
+            "type": "object",
+            "default": {
+                "Desktop": "10",
+                "Tablet": "10",
+                "Mobile": "10"
+            }
+        }
+    },
+    "editorScript": "pbg-blocks-js",
+    "editorStyle": "premium-blocks-editor-css"
+}

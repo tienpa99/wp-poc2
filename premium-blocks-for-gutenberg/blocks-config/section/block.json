@@ -1,0 +1,203 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "version": "0.1.0",
+    "name": "premium/section",
+    "title": "Section",
+    "description": "Engage your Gutenberg blocks using Premium Section Block.",
+    "keywords": ["section"],
+    "category": "premium-blocks",
+    "attributes": {
+        "stretchSection": {
+            "type": "boolean",
+            "default": false
+        },
+        "innerWidthType": {
+            "type": "string",
+            "default": "boxed"
+        },
+        "isUpdated": {
+            "type": "boolean",
+            "default": false
+        },
+        "horAlign": {
+            "type": "object",
+            "default": {
+                "Desktop": "center",
+                "Tablet": "center",
+                "Mobile": "center"
+            }
+        },
+        "height": {
+            "type": "string",
+            "default": "min"
+        },
+        "innerWidth": {
+            "type": "number"
+        },
+        "minHeight": {
+            "type": "number"
+        },
+        "minHeightUnit": {
+            "type": "string",
+            "default": "px"
+        },
+        "vPos": {
+            "type": "string",
+            "default": "top"
+        },
+        "blockId": {
+            "type": "string"
+        },
+        "hideDesktop": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideTablet": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideMobile": {
+            "type": "boolean",
+            "default": ""
+        },
+        "padding": {
+            "type": "object",
+            "default": {
+                "Desktop": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Tablet": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Mobile": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "unit": "px"
+            }
+        },
+        "margin": {
+            "type": "object",
+            "default": {
+                "Desktop": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Tablet": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Mobile": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "unit": "px"
+            }
+        },
+        "boxShadow": {
+            "type": "object",
+            "default": {
+                "color": "transparent",
+                "blur": "10",
+                "horizontal": "0",
+                "vertical": "0",
+                "position": " "
+            }
+        },
+        "border": {
+            "type": "object",
+            "default": {
+                "borderType": "none",
+                "borderColor": "",
+                "borderWidth": {
+                    "Desktop": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                },
+                "borderRadius": {
+                    "Desktop": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                }
+            }
+        },
+        "background": {
+            "type": "object",
+            "default": {
+                "backgroundType": "",
+                "backgroundColor": "",
+                "backgroundImageID": "",
+                "backgroundImageURL": "",
+                "backgroundPosition": {
+                    "Desktop": "",
+                    "Tablet": "",
+                    "Mobile": ""
+                },
+                "backgroundRepeat": {
+                    "Desktop": "no-repeat",
+                    "Tablet": "",
+                    "Mobile": ""
+                },
+                "backgroundSize": {
+                    "Desktop": "cover",
+                    "Tablet": "",
+                    "Mobile": ""
+                },
+                "fixed": false,
+                "gradientLocationOne": "0",
+                "gradientColorTwo": "",
+                "gradientLocationTwo": "100",
+                "gradientAngle": "180",
+                "gradientPosition": "center center",
+                "gradientType": "linear"
+            }
+        }
+    },
+    "editorScript": "pbg-blocks-js",
+    "editorStyle": "premium-blocks-editor-css"
+}

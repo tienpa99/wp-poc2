@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'pblocksfont';
+    src:  url('../fonts/pblocksfont.eot?i0fmp2');
+    src:  url('../fonts/pblocksfont.eot?i0fmp2#iefix') format('embedded-opentype'),
+      url('../fonts/pblocksfont.ttf?i0fmp2') format('truetype'),
+      url('../fonts/pblocksfont.woff?i0fmp2') format('woff'),
+      url('../fonts/pblocksfont.svg?i0fmp2#pblocksfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    /* font-display: block; */
+  }
+  
+  [class^="pblocksfont-"], [class*=" pblocksfont-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'pblocksfont' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .pblocksfont-pg-dashboard:before {
+    content: "\e900";
+  }
+  

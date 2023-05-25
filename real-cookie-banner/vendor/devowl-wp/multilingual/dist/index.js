@@ -1,0 +1,1 @@
+var devowlWp_multilingual;devowlWp_multilingual={};

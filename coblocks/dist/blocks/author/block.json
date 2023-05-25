@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "coblocks/author",
+  "attributes": {
+    "biography": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "imgId": {
+      "type": "number"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "anchor": true,
+    "html": false,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    }
+  },
+  "title": "Author",
+  "editorScript": "blocks-1",
+  "category": "theme"
+}

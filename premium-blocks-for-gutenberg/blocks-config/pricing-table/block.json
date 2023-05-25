@@ -1,0 +1,127 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "version": "0.1.0",
+    "name": "premium/pricing-table",
+    "title": "Pricing Table",
+    "description": "Display your pricing plans in an elegant way using Premium Pricing Table Block.",
+    "keywords": ["Pricing", "Pricing Table"],
+    "category": "premium-blocks",
+    "attributes": {
+        "badgeChecked": {
+            "type": "boolean",
+            "default": true
+        },
+        "blockId": {
+            "type": "string"
+        },
+        "classMigrate": {
+            "type": "boolean",
+            "default": false
+        },
+        "hideDesktop": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideTablet": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideMobile": {
+            "type": "boolean",
+            "default": ""
+        },
+        "tableStyles": {
+            "type": "array",
+            "default": [
+                {
+                    "tableBack": "",
+                    "tableOpacity": 1
+                }
+            ]
+        },
+        "tableBoxShadow": {
+            "type": "object",
+            "default": {
+                "color": "transparent",
+                "blur": "10",
+                "horizontal": "0",
+                "vertical": "0",
+                "position": ""
+            }
+        },
+        "tableBorder": {
+            "type": "object",
+            "default": {
+                "bordertype": "solid",
+                "borderColor": "var(--pbg-global-color4, #e1e1e1)",
+                "borderWidth": {
+                    "Desktop": {
+                        "top": "1",
+                        "right": "1",
+                        "bottom": "1",
+                        "left": "1"
+                    },
+                    "Tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                },
+                "borderRadius": {
+                    "Desktop": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                }
+            }
+        },
+        "tablePadding": {
+            "type": "object",
+            "default": {
+                "Desktop": {
+                    "top": "20",
+                    "right": "20",
+                    "bottom": "20",
+                    "left": "20"
+                },
+                "Tablet": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Mobile": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "unit": "px"
+            }
+        }
+    },
+    "editorScript": "pbg-blocks-js",
+    "editorStyle": "premium-blocks-editor-css"
+}

@@ -1,0 +1,300 @@
+{
+  "buddyboss":               {
+    "identifiers": {
+      "classes":   [
+        "\\BuddyPress"
+      ],
+      "functions": [
+        "\\buddypress"
+      ],
+      "methods":   [
+        [
+          "\\BuddyPress",
+          "instance"
+        ]
+      ]
+    }
+  },
+  "buddypress":              {
+    "identifiers": {
+      "classes":   [
+        "\\BuddyPress"
+      ],
+      "functions": [
+        "\\buddypress"
+      ]
+    }
+  },
+  "calderaforms":            {
+    "identifiers": {
+      "classes":   [
+        "\\Caldera_Forms"
+      ],
+      "functions": [
+        "\\caldera_forms_load"
+      ]
+    }
+  },
+  "contactform7":            {
+    "identifiers": {
+      "classes":   [
+        "\\WPCF7"
+      ],
+      "constants": [
+        "\\ELEMENTOR_PRO_VERSION"
+      ]
+    }
+  },
+  "easydigitaldownloads":    {
+    "identifiers": {
+      "classes":   [
+        "\\Easy_Digital_Downloads"
+      ],
+      "functions": [
+        "\\edd_set_error"
+      ]
+    }
+  },
+  "elementorpro":            {
+    "identifiers": {
+      "functions": [
+        "\\elementor_pro_load_plugin"
+      ],
+      "constants": [
+        "\\ELEMENTOR_PRO_VERSION"
+      ]
+    }
+  },
+  "fluentforms":             {
+    "identifiers": {
+      "classes":   [
+        "\\FluentForm\\App"
+      ],
+      "constants": [
+        "\\FORMINATOR_VERSION"
+      ]
+    }
+  },
+  "formidableforms":         {
+    "identifiers": {
+      "classes":   [
+        "\\FrmHooksController"
+      ],
+      "functions": [
+        "\\load_formidable_forms"
+      ]
+    }
+  },
+  "forminator":              {
+    "identifiers": {
+      "classes":   [
+        "\\Forminator"
+      ],
+      "constants": [
+        "\\FORMINATOR_VERSION"
+      ]
+    }
+  },
+  "gravityforms":            {
+    "identifiers": {
+      "classes": [
+        "\\GFForms"
+      ]
+    }
+  },
+  "groundhogg":              {
+    "identifiers": {
+      "classes":   [
+        "\\Groundhogg\\Plugin"
+      ],
+      "constants": [
+        "\\GROUNDHOGG_VERSION"
+      ]
+    }
+  },
+  "happyforms":              {
+    "identifiers": {
+      "classes":   [
+        "\\HappyForms"
+      ],
+      "functions": [
+        "\\HappyForms",
+        "\\happyforms_get_version"
+      ]
+    }
+  },
+  "kaliforms":               {
+    "identifiers": {
+      "classes":   [
+        "\\KaliForms\\Inc\\KaliForms"
+      ],
+      "constants": [
+        "\\KALI_FORMS"
+      ]
+    }
+  },
+  "learnpress":              {
+    "identifiers": {
+      "classes": [
+        "\\LearnPress"
+      ]
+    }
+  },
+  "lifterlms":               {
+    "identifiers": {
+      "classes": [
+        "\\LifterLMS"
+      ]
+    }
+  },
+  "memberpress":             {
+    "identifiers": {
+      "classes":   [
+        "\\MeprAccountCtrl"
+      ],
+      "functions": [
+        "\\mepr_autoloader"
+      ]
+    }
+  },
+  "ninjaforms":              {
+    "identifiers": {
+      "classes": [
+        "\\Ninja_Forms"
+      ]
+    }
+  },
+  "paidmembersubscriptions": {
+    "identifiers": {
+      "classes":   [
+        "\\Paid_Member_Subscriptions"
+      ],
+      "functions": [
+        "\\pms_errors"
+      ]
+    }
+  },
+  "profilebuilder":          {
+    "identifiers": {
+      "classes":   [
+        "\\WPPB_Plugin_Updater"
+      ],
+      "constants": [
+        "\\PROFILE_BUILDER_VERSION"
+      ]
+    }
+  },
+  "restrictcontentpro":      {
+    "identifiers": {
+      "classes":   [
+        "\\RCP_Requirements_Check"
+      ],
+      "functions": [
+        "\\rcp_errors"
+      ]
+    }
+  },
+  "sgcachepress":            {
+    "identifiers": {
+      "classes": [
+        "\\SiteGround_Optimizer\\Loader\\Loader",
+        "\\SiteGround_Optimizer\\Helper\\Helper"
+      ]
+    }
+  },
+  "superforms":              {
+    "identifiers": {
+      "classes": [
+        "\\SUPER_Forms"
+      ]
+    }
+  },
+  "supportcandy":            {
+    "identifiers": {
+      "classes":   [
+        "\\Support_Candy"
+      ],
+      "constants": [
+        "\\WPSC_VERSION"
+      ]
+    }
+  },
+  "ultimatemember":          {
+    "identifiers": {
+      "classes":   [
+        "\\UM"
+      ],
+      "functions": [
+        "\\UM"
+      ],
+      "methods":   [
+        [
+          "\\UM",
+          "form"
+        ]
+      ]
+    }
+  },
+  "w3totalcache":            {
+    "identifiers": {
+      "classes":   [
+        "\\W3_Config"
+      ],
+      "functions": [
+        "\\w3_instance",
+        "\\w3tc_class_autoload"
+      ],
+      "constants": [
+        "\\W3TC",
+        "\\W3TC_VERSION"
+      ]
+    }
+  },
+  "weforms":                 {
+    "identifiers": {
+      "classes":   [
+        "\\WeForms"
+      ],
+      "constants": [
+        "\\WEFORMS_VERSION"
+      ]
+    }
+  },
+  "woocommerce":             {
+    "identifiers": {
+      "classes": [
+        "\\WooCommerce"
+      ]
+    }
+  },
+  "wpforms":                 {
+    "identifiers": {
+      "functions": [
+        "\\wpforms"
+      ],
+      "constants": [
+        "\\WPFORMS_VERSION"
+      ]
+    }
+  },
+  "wpforo":                  {
+    "identifiers": {
+      "classes":   [
+        "\\wpForo"
+      ],
+      "functions": [
+        "\\WPF"
+      ]
+    }
+  },
+  "wpmembers":               {
+    "identifiers": {
+      "functions": [
+        "\\wpmem_init"
+      ],
+      "constants": [
+        "\\WPMEM_VERSION"
+      ]
+    }
+  }
+}

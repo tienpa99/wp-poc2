@@ -1,0 +1,3 @@
+commit_hash=73258e8f67dd75ee0eda1d332813b0afb3870776
+commit_url=https://github.com/Automattic/wp-calypso/commit/73258e8f67dd75ee0eda1d332813b0afb3870776
+build_number=3.66268

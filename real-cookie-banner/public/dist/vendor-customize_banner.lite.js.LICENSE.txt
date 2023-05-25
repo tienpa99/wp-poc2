@@ -1,0 +1,27 @@
+/*!
+ * JavaScript Cookie v2.2.1
+ * https://github.com/js-cookie/js-cookie
+ *
+ * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+ * Released under the MIT license
+ */
+
+/**
+	 * @file prescribe
+	 * @description Tiny, forgiving HTML parser
+	 * @version vundefined
+	 * @see {@link https://github.com/krux/prescribe/}
+	 * @license MIT
+	 * @author Derek Brans
+	 * @copyright 2016 Krux Digital, Inc
+	 */
+
+/**
+ * @file postscribe
+ * @description Asynchronously write javascript, even with document.write.
+ * @version v2.0.8
+ * @see {@link https://krux.github.io/postscribe}
+ * @license MIT
+ * @author Derek Brans
+ * @copyright 2016 Krux Digital, Inc
+ */

@@ -1,0 +1,1399 @@
+# Copyright (C) 2022 WP SEO Structured Data Schema
+# This file is distributed under the same license as the WP SEO Structured Data Schema package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP SEO Structured Data Schema\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: WP SEO Structured Data Schema\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../lib/classes/KcSeoHelper.php:480
+msgid "Pro Version Features"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:482
+msgid "Includes Auto-fill function <---Popular"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:483
+msgid "Supports Custom Post Types beyond default page and posts"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:484
+msgid "Supports WordPress Multisite"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:485
+msgid "Supports more schema types:"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:487
+msgid "Books"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:488
+msgid "Courses"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:489, ../lib/views/schema-options.php:221
+msgid "Person"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:490
+msgid "Job Postings"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:491
+msgid "Movies"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:492, ../lib/functions/KcSeoOptions.php:1573
+msgid "Music"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:493, ../lib/functions/KcSeoOptions.php:1577
+msgid "Recipe"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:494
+msgid "TV Episode"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:495, ../lib/functions/KcSeoOptions.php:1585
+msgid "QAPage"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:496, ../lib/functions/KcSeoOptions.php:1589
+msgid "Item List"
+msgstr ""
+
+#: ../lib/classes/KcSeoHelper.php:502
+msgid "Get the Pro Version"
+msgstr ""
+
+#: ../lib/classes/KcSeoInit.php:33
+msgid "Documentation"
+msgstr ""
+
+#: ../lib/classes/KcSeoInit.php:34
+msgid "Get Pro"
+msgstr ""
+
+#: ../lib/classes/KcSeoInit.php:184, ../lib/views/schema-options.php:7
+msgid "WP SEO Structured Data Schema"
+msgstr ""
+
+#: ../lib/classes/KcSeoInit.php:185
+msgid "WP SEO Schema"
+msgstr ""
+
+#: ../lib/classes/KcSeoInit.php:193
+msgid "WP SEO Schema settings"
+msgstr ""
+
+#: ../lib/classes/KcSeoInit.php:194
+msgid "Settings"
+msgstr ""
+
+#: ../lib/classes/KcSeoMetaData.php:63, ../lib/views/schema-options.php:26
+msgid "For more detailed information on how to configure this plugin, please visit:"
+msgstr ""
+
+#: ../lib/classes/KcSeoMetaData.php:64
+msgid "Once you save these structured data schema settings, validate this page url here:"
+msgstr ""
+
+#: ../lib/classes/KcSeoMetaData.php:79
+msgid "Auto Fill"
+msgstr ""
+
+#: ../lib/classes/KcSeoMetaData.php:79, ../lib/views/schema-options.php:318, ../lib/views/settings.php:33, ../lib/views/settings.php:52, ../lib/views/settings.php:78, ../lib/views/settings.php:87
+msgid "PRO"
+msgstr ""
+
+#: ../lib/classes/KcSeoMetaData.php:127
+msgid "This is a Pro version feature."
+msgstr ""
+
+#: ../lib/classes/KcSeoOffer.php:49
+msgid "Don't miss out on our biggest sale of the year! Get your."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:15
+msgid "Article"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:21, ../lib/functions/KcSeoOptions.php:180, ../lib/functions/KcSeoOptions.php:279, ../lib/functions/KcSeoOptions.php:433, ../lib/functions/KcSeoOptions.php:1483
+msgid "Headline"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:23, ../lib/functions/KcSeoOptions.php:182, ../lib/functions/KcSeoOptions.php:265, ../lib/functions/KcSeoOptions.php:435
+msgid "Article title"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:27, ../lib/functions/KcSeoOptions.php:187, ../lib/functions/KcSeoOptions.php:285, ../lib/functions/KcSeoOptions.php:439, ../lib/functions/KcSeoOptions.php:1604
+msgid "Page URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:29, ../lib/functions/KcSeoOptions.php:189, ../lib/functions/KcSeoOptions.php:287, ../lib/functions/KcSeoOptions.php:441
+msgid "The canonical URL of the article page"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:33, ../lib/functions/KcSeoOptions.php:203
+msgid "Author Name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:35, ../lib/functions/KcSeoOptions.php:205, ../lib/functions/KcSeoOptions.php:293, ../lib/functions/KcSeoOptions.php:447
+msgid "Author display name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:39, ../lib/functions/KcSeoOptions.php:209, ../lib/functions/KcSeoOptions.php:297, ../lib/functions/KcSeoOptions.php:451
+msgid "Author URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:45, ../lib/functions/KcSeoOptions.php:220
+msgid "Article Feature Image"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:48, ../lib/functions/KcSeoOptions.php:223
+msgid "Images should be at least 696 pixels wide.<br>Images should be in .jpg, .png, or. gif format."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:51, ../lib/functions/KcSeoOptions.php:226, ../lib/functions/KcSeoOptions.php:309, ../lib/functions/KcSeoOptions.php:463, ../lib/functions/KcSeoOptions.php:1505, ../lib/functions/KcSeoOptions.php:1610
+msgid "Published date"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:55, ../lib/functions/KcSeoOptions.php:62, ../lib/functions/KcSeoOptions.php:230, ../lib/functions/KcSeoOptions.php:237, ../lib/functions/KcSeoOptions.php:312, ../lib/functions/KcSeoOptions.php:319, ../lib/functions/KcSeoOptions.php:466, ../lib/functions/KcSeoOptions.php:474, ../lib/functions/KcSeoOptions.php:739, ../lib/functions/KcSeoOptions.php:975, ../lib/functions/KcSeoOptions.php:1204, ../lib/functions/KcSeoOptions.php:1453, ../lib/functions/KcSeoOptions.php:1508, ../lib/functions/KcSeoOptions.php:1514, ../lib/functions/KcSeoOptions.php:1613, ../lib/functions/KcSeoOptions.php:1620
+msgid "Like this: 2021-12-25 14:20:00"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:58, ../lib/functions/KcSeoOptions.php:233, ../lib/functions/KcSeoOptions.php:316, ../lib/functions/KcSeoOptions.php:470, ../lib/functions/KcSeoOptions.php:1511
+msgid "Modified date"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:65, ../lib/functions/KcSeoOptions.php:240, ../lib/functions/KcSeoOptions.php:323, ../lib/functions/KcSeoOptions.php:477, ../lib/functions/KcSeoOptions.php:1517
+msgid "Publisher"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:67, ../lib/functions/KcSeoOptions.php:242, ../lib/functions/KcSeoOptions.php:325, ../lib/functions/KcSeoOptions.php:479, ../lib/functions/KcSeoOptions.php:1519
+msgid "Publisher name or Organization name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:71, ../lib/functions/KcSeoOptions.php:246, ../lib/functions/KcSeoOptions.php:329, ../lib/functions/KcSeoOptions.php:483, ../lib/functions/KcSeoOptions.php:1522, ../lib/views/settings.php:86
+msgid "Publisher Logo"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:73, ../lib/functions/KcSeoOptions.php:248, ../lib/functions/KcSeoOptions.php:331, ../lib/functions/KcSeoOptions.php:485, ../lib/functions/KcSeoOptions.php:1524
+msgid "Logos should have a wide aspect ratio, not a square icon.<br>Logos should be no wider than 600px, and no taller than 60px.<br>Always retain the original aspect ratio of the logo when resizing. Ideally, logos are exactly 60px tall with width <= 600px. If maintaining a height of 60px would cause the width to exceed 600px, downscale the logo to exactly 600px wide and reduce the height accordingly below 60px to maintain the original aspect ratio.<br>"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:77, ../lib/functions/KcSeoOptions.php:105, ../lib/functions/KcSeoOptions.php:149, ../lib/functions/KcSeoOptions.php:252, ../lib/functions/KcSeoOptions.php:335, ../lib/functions/KcSeoOptions.php:358, ../lib/functions/KcSeoOptions.php:402, ../lib/functions/KcSeoOptions.php:489, ../lib/functions/KcSeoOptions.php:512, ../lib/functions/KcSeoOptions.php:556, ../lib/functions/KcSeoOptions.php:619, ../lib/functions/KcSeoOptions.php:780, ../lib/functions/KcSeoOptions.php:930, ../lib/functions/KcSeoOptions.php:993, ../lib/functions/KcSeoOptions.php:1107, ../lib/functions/KcSeoOptions.php:1139, ../lib/functions/KcSeoOptions.php:1278, ../lib/functions/KcSeoOptions.php:1385, ../lib/functions/KcSeoOptions.php:1543, ../lib/views/schema-options.php:170, ../lib/views/schema-options.php:255
+msgid "Description"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:79, ../lib/functions/KcSeoOptions.php:217, ../lib/functions/KcSeoOptions.php:254, ../lib/functions/KcSeoOptions.php:337, ../lib/functions/KcSeoOptions.php:491, ../lib/functions/KcSeoOptions.php:1545
+msgid "Short description. New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:82, ../lib/functions/KcSeoOptions.php:258, ../lib/functions/KcSeoOptions.php:340, ../lib/functions/KcSeoOptions.php:494
+msgid "Article body"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:84, ../lib/functions/KcSeoOptions.php:260, ../lib/functions/KcSeoOptions.php:342
+msgid "Article content"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:87
+msgid "Alternative headline"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:89
+msgid "A secondary headline for the article."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:92, ../lib/functions/KcSeoOptions.php:97, ../lib/functions/KcSeoOptions.php:345, ../lib/functions/KcSeoOptions.php:350, ../lib/functions/KcSeoOptions.php:499, ../lib/functions/KcSeoOptions.php:504, ../lib/functions/KcSeoOptions.php:918
+msgid "Video"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:101, ../lib/functions/KcSeoOptions.php:144, ../lib/functions/KcSeoOptions.php:354, ../lib/functions/KcSeoOptions.php:397, ../lib/functions/KcSeoOptions.php:508, ../lib/functions/KcSeoOptions.php:551, ../lib/functions/KcSeoOptions.php:587, ../lib/functions/KcSeoOptions.php:769, ../lib/functions/KcSeoOptions.php:924, ../lib/functions/KcSeoOptions.php:987, ../lib/functions/KcSeoOptions.php:1024, ../lib/functions/KcSeoOptions.php:1102, ../lib/functions/KcSeoOptions.php:1134, ../lib/functions/KcSeoOptions.php:1380, ../lib/functions/KcSeoOptions.php:1598, ../lib/functions/KcSeoOptions.php:1645, ../lib/views/schema-options.php:224
+msgid "Name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:109, ../lib/functions/KcSeoOptions.php:362, ../lib/functions/KcSeoOptions.php:457, ../lib/functions/KcSeoOptions.php:516, ../lib/functions/KcSeoOptions.php:775, ../lib/functions/KcSeoOptions.php:1111, ../lib/functions/KcSeoOptions.php:1143, ../lib/functions/KcSeoOptions.php:1352, ../lib/functions/KcSeoOptions.php:1499, ../lib/functions/KcSeoOptions.php:1692, ../lib/views/schema-options.php:247
+msgid "Image"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:113, ../lib/functions/KcSeoOptions.php:159, ../lib/functions/KcSeoOptions.php:366, ../lib/functions/KcSeoOptions.php:412, ../lib/functions/KcSeoOptions.php:520, ../lib/functions/KcSeoOptions.php:566
+msgid "Content URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:117, ../lib/functions/KcSeoOptions.php:370, ../lib/functions/KcSeoOptions.php:524
+msgid "Embed URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:118, ../lib/functions/KcSeoOptions.php:371, ../lib/functions/KcSeoOptions.php:525, ../lib/functions/KcSeoOptions.php:958, ../lib/functions/KcSeoOptions.php:1153
+msgid "A URL pointing to the actual video media file. This file should be in .mpg, .mpeg, .mp4, .m4v, .mov, .wmv, .asf, .avi, .ra, .ram, .rm, .flv, or other video file format."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:122, ../lib/functions/KcSeoOptions.php:375, ../lib/functions/KcSeoOptions.php:529
+msgid "Upload date"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:125, ../lib/functions/KcSeoOptions.php:378, ../lib/functions/KcSeoOptions.php:532
+msgid "Like this: 2021-08-25 14:20:00"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:129, ../lib/functions/KcSeoOptions.php:154, ../lib/functions/KcSeoOptions.php:382, ../lib/functions/KcSeoOptions.php:407, ../lib/functions/KcSeoOptions.php:536, ../lib/functions/KcSeoOptions.php:561, ../lib/functions/KcSeoOptions.php:950, ../lib/functions/KcSeoOptions.php:1005
+msgid "Duration"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:130, ../lib/functions/KcSeoOptions.php:383, ../lib/functions/KcSeoOptions.php:537
+msgid "Runtime of the movie in ISO 8601 format (for example, \"PT2H22M\" (142 minutes))."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:135, ../lib/functions/KcSeoOptions.php:140, ../lib/functions/KcSeoOptions.php:388, ../lib/functions/KcSeoOptions.php:393, ../lib/functions/KcSeoOptions.php:542, ../lib/functions/KcSeoOptions.php:547, ../lib/functions/KcSeoOptions.php:981
+msgid "Audio"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:145, ../lib/functions/KcSeoOptions.php:398, ../lib/functions/KcSeoOptions.php:552, ../lib/functions/KcSeoOptions.php:990
+msgid "The title of the audio"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:150, ../lib/functions/KcSeoOptions.php:403, ../lib/functions/KcSeoOptions.php:557
+msgid "The short description of the audio"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:155, ../lib/functions/KcSeoOptions.php:408, ../lib/functions/KcSeoOptions.php:562, ../lib/functions/KcSeoOptions.php:1007
+msgid "The duration of the audio in ISO 8601 format.(PT1M33S)"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:160, ../lib/functions/KcSeoOptions.php:413, ../lib/functions/KcSeoOptions.php:567, ../lib/functions/KcSeoOptions.php:1115, ../lib/functions/KcSeoOptions.php:1147, ../lib/functions/KcSeoOptions.php:1152, ../lib/functions/KcSeoOptions.php:1651
+msgid "URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:161, ../lib/functions/KcSeoOptions.php:414, ../lib/functions/KcSeoOptions.php:568, ../lib/functions/KcSeoOptions.php:1002
+msgid "A URL pointing to the actual audio media file. This file should be in .mp3, .wav, .mpc or other audio file format."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:165, ../lib/functions/KcSeoOptions.php:418, ../lib/functions/KcSeoOptions.php:572, ../lib/functions/KcSeoOptions.php:1011
+msgid "Encoding Format"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:166, ../lib/functions/KcSeoOptions.php:419, ../lib/functions/KcSeoOptions.php:573, ../lib/functions/KcSeoOptions.php:1012
+msgid "The encoding format of audio like: 'audio/mpeg'"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:174
+msgid "Tech Article"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:193
+msgid "Author Type"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:196
+msgid "Select one"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:215
+msgid "Author Description"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:263, ../lib/functions/KcSeoOptions.php:1548
+msgid "Keywords"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:273
+msgid "Blog Posting"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:281
+msgid "Blog posting title"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:291
+msgid "Author name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:303
+msgid "Feature Image"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:305, ../lib/functions/KcSeoOptions.php:459
+msgid "The representative image of the article. Only a marked-up image that directly belongs to the article should be specified.<br> Images should be at least 696 pixels wide. <br>Images should be in .jpg, .png, or. gif format."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:427
+msgid "News Article"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:445, ../lib/functions/KcSeoOptions.php:718, ../lib/functions/KcSeoOptions.php:1194, ../lib/functions/KcSeoOptions.php:1432
+msgid "Author"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:496
+msgid "Article body content. New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:581
+msgid "Event"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:590
+msgid "The name of the event."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:593
+msgid "Location name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:596
+msgid "Event Location name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:599
+msgid "Location address"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:602
+msgid "The location of for example where the event is happening, an organization is located, or where an action takes place."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:605
+msgid "Start date"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:609
+msgid "Event start date Like : 2017-10-16 4:00 AM"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:612
+msgid "End date"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:616
+msgid "Event end date Like : 2017-10-16 4:00 AM"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:622
+msgid "Event description. New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:625
+msgid "Organizer"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:628
+msgid "The Organizer."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:631, ../lib/functions/KcSeoOptions.php:634
+msgid "Organizer URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:637
+msgid "Performer Name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:640
+msgid "The performer's name."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:667
+msgid "Image URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:670
+msgid "URL of an image or logo for the event or tour"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:673, ../lib/functions/KcSeoOptions.php:864
+msgid "Price"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:677
+msgid "This is highly recommended. The lowest available price, including service charges and fees, of this type of ticket. <span class='required'>Not required but (Recommended)</span>"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:680, ../lib/functions/KcSeoOptions.php:877
+msgid "Price currency"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:682
+msgid "The 3-letter currency code. (USD)"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:696
+msgid "Valid From"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:707
+msgid "A link to the event's details page. <span class='required'>Not required but (Recommended)</span>"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:710, ../lib/functions/KcSeoOptions.php:1165, ../lib/functions/KcSeoOptions.php:1424
+msgid "Review"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:712, ../lib/functions/KcSeoOptions.php:1426
+msgid "To add review schema for this type, complete fields below and enable, others live blank."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:723, ../lib/functions/KcSeoOptions.php:1119, ../lib/functions/KcSeoOptions.php:1157, ../lib/functions/KcSeoOptions.php:1437
+msgid "Author Same As profile link"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:727, ../lib/functions/KcSeoOptions.php:1441
+msgid "A reference page that unambiguously indicates the item's identity; for example, the URL of the item's Wikipedia page, Freebase page, or official website.<br> Enter new line for every entry"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:730, ../lib/functions/KcSeoOptions.php:1182, ../lib/functions/KcSeoOptions.php:1444
+msgid "Review body"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:733, ../lib/functions/KcSeoOptions.php:1185, ../lib/functions/KcSeoOptions.php:1447
+msgid "The actual body of the review."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:736, ../lib/functions/KcSeoOptions.php:1201, ../lib/functions/KcSeoOptions.php:1450
+msgid "Date of Published"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:742, ../lib/functions/KcSeoOptions.php:848, ../lib/functions/KcSeoOptions.php:1207, ../lib/functions/KcSeoOptions.php:1456
+msgid "Rating value"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:745, ../lib/functions/KcSeoOptions.php:1210, ../lib/functions/KcSeoOptions.php:1301, ../lib/functions/KcSeoOptions.php:1459
+msgid "A numerical quality rating for the item."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:748, ../lib/functions/KcSeoOptions.php:1213, ../lib/functions/KcSeoOptions.php:1462
+msgid "Best rating"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:751, ../lib/functions/KcSeoOptions.php:1216, ../lib/functions/KcSeoOptions.php:1465
+msgid "The highest value allowed in this rating system."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:754, ../lib/functions/KcSeoOptions.php:1219, ../lib/functions/KcSeoOptions.php:1468
+msgid "Worst rating"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:757, ../lib/functions/KcSeoOptions.php:1222, ../lib/functions/KcSeoOptions.php:1471
+msgid "The lowest value allowed in this rating system. * Required if the rating system is not on a 5-point scale. If worstRating is omitted, 1 is assumed."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:763
+msgid "Product"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:772
+msgid "The name of the product."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:777
+msgid "The URL of a product photo. Pictures clearly showing the product, e.g. against a white background, are preferred."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:782
+msgid "Product description. New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:785
+msgid "SKU"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:790
+msgid "Brand"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:793
+msgid "The brand of the product."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:796
+msgid "Identifier Type"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:806
+msgid ""
+"<strong>MPN</strong><br>\n"
+"                                       &#8594; MPN(Manufacturer Part Number) Used globally, Alphanumeric digits (various lengths)<br>\n"
+"                                       <strong>GTIN</strong><br>\n"
+"                                       &#8594; UPC(Universal Product Code) Used in primarily North America. 12 numeric digits. eg. 892685001003.<br>\n"
+"                                       &#8594; EAN(European Article Number) Used primarily outside of North America. Typically 13 numeric digits (can occasionally be either eight or 14 numeric digits). eg. 4011200296908<br>\n"
+"                                       &#8594; ISBN(International Standard Book Number) Used globally, ISBN-13 (recommended), 13 numeric digits 978-0747595823<br>\n"
+"                                       &#8594; JAN(Japanese Article Number) Used only in Japan, 8 or 13 numeric digits."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:815
+msgid "Identifier"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:818
+msgid "Enter product unique identifier"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:821
+msgid "Product Review & Rating"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:825
+msgid "Review rating value"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:829, ../lib/functions/KcSeoOptions.php:851
+msgid "Rating value. (1 , 2.5, 3, 5 etc)"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:832
+msgid "Review Best rating"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:838
+msgid "Review Worst rating"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:844
+msgid "Review author"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:854
+msgid "Total review count"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:857
+msgid "Review rating value. <span class='required'>This is required if (Rating value) is given</span>"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:860
+msgid "Product Pricing"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:867
+msgid "The lowest available price, including service charges and fees, of this type of ticket."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:870
+msgid "PriceValidUntil"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:874
+msgid "The date (in ISO 8601 date and time format) after which the price will no longer be available."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:879
+msgid "The 3-letter currency code."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:895
+msgid "Select a availability type"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:907
+msgid "Select a condition"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:910
+msgid "Product URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:912
+msgid "A URL to the product web page (that includes the Offer). (Don't use offerURL for markup that appears on the product page itself.)"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:927
+msgid "The title of the video"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:933
+msgid "The description of the video. New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:940
+msgid "A URL pointing to the video thumbnail image file. Images must be at least 160x90 pixels and at most 1920x1080 pixels."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:943
+msgid "Updated date"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:947
+msgid "2021-02-05T08:00:00+08:00"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:952
+msgid "The duration of the video in ISO 8601 format.(PT1M33S)"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:964
+msgid "A URL pointing to a player for the specific video. Usually this is the information in the src element of an < embed> tag.Example: Dailymotion: http://www.dailymotion.com/swf/x1o2g."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:967
+msgid "Interaction count"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:969
+msgid "The number of times the video has been viewed."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:972
+msgid "Expires"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:995
+msgid "The description of the audio. New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1018
+msgid "Service"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1027
+msgid "The name of the Service."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1030
+msgid "Service type"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1033
+msgid "The type of service being offered, e.g. veterans' benefits, emergency relief, etc."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1039
+msgid "An additional type for the service, typically used for adding more specific types from external vocabularies in microdata syntax."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1042
+msgid "Award"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1044
+msgid "An award won by or for this service."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1047
+msgid "Category"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1049
+msgid "A category for the service."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1052
+msgid "Provider mobility"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1054
+msgid "Indicates the mobility of a provided service (e.g. 'static', 'dynamic')."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1060
+msgid "A short description of the service. New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1066
+msgid "An image of the service. This should be a URL."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1072
+msgid "Indicates a page (or other CreativeWork) for which this thing is the main entity being described."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1078
+msgid "URL of a reference Web page that unambiguously indicates the service's identity. E.g. the URL of the service's Wikipedia page, Freebase page, or official website."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1084
+msgid "URL of the service."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1087
+msgid "Alternate name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1089
+msgid "An alias for the service."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1095, ../lib/functions/KcSeoOptions.php:1539
+msgid "About"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1121, ../lib/functions/KcSeoOptions.php:1159
+msgid "A reference page that unambiguously indicates the item\'s identity; for example, the URL of the item\'s Wikipedia page, Freebase page, or official website.<br> Enter new line for every entry"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1127
+msgid "Contact"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1151
+msgid "Video URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1171
+msgid "Notice</span>"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1176
+msgid "Name of the reviewed item"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1179
+msgid "The item that is being reviewed."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1188
+msgid "Review name"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1191
+msgid "A particular name for the review."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1198
+msgid "The author of the review. The reviewer’s name needs to be a valid name."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1225
+msgid "Name of the organization"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1227
+msgid "The publisher of the review."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1233
+msgid "Aggregate Ratings"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1239
+msgid "Schema type"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1244
+msgid "Use the most appropriate schema type for what is being reviewed."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1247
+msgid "Name of the item"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1250
+msgid "The item that is being rated."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1263, ../lib/functions/KcSeoOptions.php:1398, ../lib/functions/KcSeoOptions.php:1699, ../lib/views/schema-options.php:118
+msgid "The price range of the business, for example $$$."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1280
+msgid "Description for thr review. New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1283
+msgid "Rating Count"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1287
+msgid "The total number of ratings for the item on your site. <span class='required'>* At least one of ratingCount or reviewCount is required.</span>"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1290
+msgid "Review Count"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1294
+msgid "Specifies the number of people who provided a review with or without an accompanying rating. At least one of ratingCount or reviewCount is required."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1297
+msgid "Rating Value"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1304
+msgid "Best Rating"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1308
+msgid "The highest value allowed in this rating system. <span class='required'>* Required if the rating system is not a 5-point scale.</span> If bestRating is omitted, 5 is assumed."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1311
+msgid "Worst Rating"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1315
+msgid "The lowest value allowed in this rating system. <span class='required'>* Required if the rating system is not a 5-point scale.</span> If worstRating is omitted, 1 is assumed."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1321
+msgid "Restaurant"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1327
+msgid "Name of the Restaurant"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1332
+msgid "Description of the Restaurant"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1334, ../lib/functions/KcSeoOptions.php:1387
+msgid "New line is not supported."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1337
+msgid "Opening Hours"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1339
+msgid "Mo,Tu,We,Th,Fr,Sa,Su 11:30-23:00"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1342, ../lib/functions/KcSeoOptions.php:1419
+msgid "Telephone"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1344
+msgid "+155501003333"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1347
+msgid "Menu"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1349
+msgid "http://example.com/menu"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1357, ../lib/views/schema-options.php:270
+msgid "Address"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1361, ../lib/functions/KcSeoOptions.php:1395, ../lib/views/schema-options.php:113
+msgid "Price Range"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1363
+msgid "The price range of the business, for example $$$"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1366
+msgid "Serves Cuisine"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1368, ../lib/views/schema-options.php:159
+msgid "The cuisine of the restaurant."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1374
+msgid "Local Business"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1390
+msgid "Business Logo"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1401
+msgid "Address locality"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1403
+msgid "City (i.e Kansas city)"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1406
+msgid "Address region"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1408
+msgid "State (i.e. MO)"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1411
+msgid "Postal code"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1415
+msgid "Street address"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1477
+msgid "Medical WebPage"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1485
+msgid "Medical title"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1489
+msgid "Webpage url"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1491
+msgid "Web Page Url"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1494
+msgid "Specialty url"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1496
+msgid "Specialty Url"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1528
+msgid "Last Reviewed"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1531
+msgid "Like this: 2021-12-25"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1535
+msgid "Main Content of Page"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1557
+msgid "Book"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1561
+msgid "Course"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1565
+msgid "Job Posting"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1569
+msgid "Movie"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1581
+msgid "TVEpisode"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1592
+msgid "Special Announcement"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1600
+msgid "SpecialAnnouncement.name: Name of the announcement. This text should be present on the underlying page."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1606
+msgid "SpecialAnnouncement.url: URL of the page containing the announcements. If present, this must match the URL of the page containing the information."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1617
+msgid "Expires date"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1624
+msgid "Text"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1626
+msgid "SpecialAnnouncement.text: Text of the announcements."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1630
+msgid "Announcement Locations"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1636
+msgid "Announcement Location"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1639
+msgid "Type"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1647
+msgid "SpecialAnnouncement.announcementLocation.name: "
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1654
+msgid "SpecialAnnouncement.announcementLocation.url: URL"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1657
+msgid "Address: Street"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1659
+msgid "SpecialAnnouncement.announcementLocation.address.streetAddress: The street address. For example, 1600 Amphitheatre Pkwy."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1663
+msgid "Address: Locality"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1665
+msgid "SpecialAnnouncement.announcementLocation.address.addressLocality: The locality in which the street address is, and which is in the region. For example, Mountain View."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1669
+msgid "Address: Post Code"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1671
+msgid "SpecialAnnouncement.announcementLocation.address.postalCode: The postal code. For example, 94043."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1675
+msgid "Address: Region"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1677
+msgid "SpecialAnnouncement.announcementLocation.address.addressRegion: The region in which the locality is, and which is in the country. For example, California."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1681
+msgid "Address: Country"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1683
+msgid "SpecialAnnouncement.announcementLocation.address.addressCountry: The country. For example, USA. You can also provide the two-letter ISO 3166-1 alpha-2 country code."
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1687
+msgid "ID"
+msgstr ""
+
+#: ../lib/functions/KcSeoOptions.php:1689
+msgid "SpecialAnnouncement.announcementLocation.@id: An optional unique identifier so that you can reference pre-existing structured data for this location."
+msgstr ""
+
+#: ../lib/models/KcSeoSchemaModel.php:1202
+msgid "Required"
+msgstr ""
+
+#: ../lib/models/KcSeoSchemaModel.php:1203
+msgid "Recommended"
+msgstr ""
+
+#: ../lib/views/schema-options.php:13
+msgid "General settings for WP SEO Structured Data Schema by <a href=\"https://wpsemplugins.com/\">WPSEMPlugins.com</a>"
+msgstr ""
+
+#: ../lib/views/schema-options.php:35
+msgid "Site Type"
+msgstr ""
+
+#: ../lib/views/schema-options.php:38
+msgid "Select one type"
+msgstr ""
+
+#: ../lib/views/schema-options.php:78
+msgid "Organization or Business name"
+msgstr ""
+
+#: ../lib/views/schema-options.php:85
+msgid "Site Image"
+msgstr ""
+
+#: ../lib/views/schema-options.php:122
+msgid "Site Telephone"
+msgstr ""
+
+#: ../lib/views/schema-options.php:127
+msgid "The telephone number."
+msgstr ""
+
+#: ../lib/views/schema-options.php:131
+msgid "Additional Type"
+msgstr ""
+
+#: ../lib/views/schema-options.php:138
+msgid "Add \"Additional Type\""
+msgstr ""
+
+#: ../lib/views/schema-options.php:142
+msgid ""
+"Product Ontology is an extension to schema using WikiPedia definitions that enables you to further define a type by adding an \"AdditionalType” attribute.Example for a Tailor (which is not available\n"
+"                                                as a schema “Type”): Pick LocalBusiness as a generic Type, then add additional type as follows:"
+msgstr ""
+
+#: ../lib/views/schema-options.php:156
+msgid "Restaurant Information"
+msgstr ""
+
+#: ../lib/views/schema-options.php:167
+msgid "Others local business info"
+msgstr ""
+
+#: ../lib/views/schema-options.php:177
+msgid "Operation Hours"
+msgstr ""
+
+#: ../lib/views/schema-options.php:204
+msgid "GeoCoordinates"
+msgstr ""
+
+#: ../lib/views/schema-options.php:207
+msgid "Latitude"
+msgstr ""
+
+#: ../lib/views/schema-options.php:214
+msgid "Longitude"
+msgstr ""
+
+#: ../lib/views/schema-options.php:231
+msgid "Work For"
+msgstr ""
+
+#: ../lib/views/schema-options.php:239
+msgid "Job Title"
+msgstr ""
+
+#: ../lib/views/schema-options.php:251
+msgid "Add your personal photo here"
+msgstr ""
+
+#: ../lib/views/schema-options.php:262
+msgid "Birth date"
+msgstr ""
+
+#: ../lib/views/schema-options.php:273
+msgid "Address Country"
+msgstr ""
+
+#: ../lib/views/schema-options.php:288
+msgid "Address Locality"
+msgstr ""
+
+#: ../lib/views/schema-options.php:295
+msgid "Address Region"
+msgstr ""
+
+#: ../lib/views/schema-options.php:302
+msgid "Postal Code"
+msgstr ""
+
+#: ../lib/views/schema-options.php:308
+msgid "Street Address"
+msgstr ""
+
+#: ../lib/views/schema-options.php:317
+msgid "Add New Address"
+msgstr ""
+
+#: ../lib/views/schema-options.php:324
+msgid "Organization Logo"
+msgstr ""
+
+#: ../lib/views/schema-options.php:327, ../lib/views/schema-options.php:390
+msgid "Social Profile"
+msgstr ""
+
+#: ../lib/views/schema-options.php:330
+msgid "Corporate Contacts"
+msgstr ""
+
+#: ../lib/views/schema-options.php:336
+msgid "Select Organization Logo"
+msgstr ""
+
+#: ../lib/views/schema-options.php:380
+msgid "Company Name"
+msgstr ""
+
+#: ../lib/views/schema-options.php:387
+msgid "Social Profiles"
+msgstr ""
+
+#: ../lib/views/schema-options.php:416
+msgid "Add Social Profile"
+msgstr ""
+
+#: ../lib/views/schema-options.php:424
+msgid "Contacts"
+msgstr ""
+
+#: ../lib/views/schema-options.php:443
+msgid "Contact Phone"
+msgstr ""
+
+#: ../lib/views/schema-options.php:447
+msgid "Please follow the format below"
+msgstr ""
+
+#: ../lib/views/schema-options.php:458
+msgid "Contact Email"
+msgstr ""
+
+#: ../lib/views/schema-options.php:465
+msgid "Contact Option"
+msgstr ""
+
+#: ../lib/views/schema-options.php:469
+msgid "Select an option"
+msgstr ""
+
+#: ../lib/views/schema-options.php:472
+msgid "TollFree"
+msgstr ""
+
+#: ../lib/views/schema-options.php:476
+msgid "HearingImpairedSupported"
+msgstr ""
+
+#: ../lib/views/schema-options.php:482
+msgid "Area Served"
+msgstr ""
+
+#: ../lib/views/schema-options.php:500
+msgid "Available language"
+msgstr ""
+
+#: ../lib/views/schema-options.php:518
+msgid "Site Schema"
+msgstr ""
+
+#: ../lib/views/schema-options.php:521
+msgid "Disable Site Schema"
+msgstr ""
+
+#: ../lib/views/schema-options.php:529
+msgid "Enable Site link Search Box"
+msgstr ""
+
+#: ../lib/views/schema-options.php:534
+msgid "Note: Preferred Name markup may no longer be supported by Google"
+msgstr ""
+
+#: ../lib/views/schema-options.php:538
+msgid "Site Name:"
+msgstr ""
+
+#: ../lib/views/schema-options.php:545
+msgid "Site Alternative Name:"
+msgstr ""
+
+#: ../lib/views/schema-options.php:552
+msgid "Site Url:"
+msgstr ""
+
+#: ../lib/views/schema-options.php:560, ../lib/views/settings.php:152
+msgid "Save Changes"
+msgstr ""
+
+#: ../lib/views/settings.php:6
+msgid "Schema Settings"
+msgstr ""
+
+#: ../lib/views/settings.php:13
+msgid "Business / Org Schema"
+msgstr ""
+
+#: ../lib/views/settings.php:18
+msgid ""
+"Home page\n"
+"                                only"
+msgstr ""
+
+#: ../lib/views/settings.php:22
+msgid ""
+"Sitewide (Apply General Settings schema\n"
+"                                sitewide)"
+msgstr ""
+
+#: ../lib/views/settings.php:27
+msgid "Turn off (Turn off global schema)"
+msgstr ""
+
+#: ../lib/views/settings.php:32
+msgid "Post Type"
+msgstr ""
+
+#: ../lib/views/settings.php:46
+msgid "Site Navigation Element Schema"
+msgstr ""
+
+#: ../lib/views/settings.php:51, ../lib/views/settings.php:77
+msgid "Publisher Name"
+msgstr ""
+
+#: ../lib/views/settings.php:67
+msgid ""
+"Please deselect the navigation menu if you want to deactivate site navigation\n"
+"                        schema."
+msgstr ""
+
+#: ../lib/views/settings.php:72
+msgid "Publisher Information"
+msgstr ""
+
+#: ../lib/views/settings.php:93
+msgid "Third party plugin Settings"
+msgstr ""
+
+#: ../lib/views/settings.php:97
+msgid "YOAST SEO Default Schema JSON-LD"
+msgstr ""
+
+#: ../lib/views/settings.php:102, ../lib/views/settings.php:112, ../lib/views/settings.php:122, ../lib/views/settings.php:132
+msgid "Disable"
+msgstr ""
+
+#: ../lib/views/settings.php:103
+msgid "This will remove all default schema generated by Yoast SEO plugin."
+msgstr ""
+
+#: ../lib/views/settings.php:107
+msgid "YOAST SEO sitelinks searchbox"
+msgstr ""
+
+#: ../lib/views/settings.php:113
+msgid "This will remove sitelinks searchbox generated by Yoast SEO plugin."
+msgstr ""
+
+#: ../lib/views/settings.php:117
+msgid "Woocommerce default schema"
+msgstr ""
+
+#: ../lib/views/settings.php:123
+msgid "This will remove Woocommerce plugin generated schema."
+msgstr ""
+
+#: ../lib/views/settings.php:127
+msgid "Easy Digital Download default schema"
+msgstr ""
+
+#: ../lib/views/settings.php:133
+msgid "This will remove Easy Digital Download plugin generated schema."
+msgstr ""
+
+#: ../lib/views/settings.php:137
+msgid "System Settings"
+msgstr ""
+
+#: ../lib/views/settings.php:140
+msgid "Delete all data"
+msgstr ""
+
+#: ../lib/views/settings.php:145
+msgid "Enable"
+msgstr ""
+
+#: ../lib/views/settings.php:146
+msgid ""
+"This will delete all schema created and applied by this plugin when plugin is\n"
+"                                deleted."
+msgstr ""

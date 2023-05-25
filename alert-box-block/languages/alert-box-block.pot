@@ -1,0 +1,181 @@
+# Copyright (C) 2023 bPlugins LLC
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Alert Box Block 1.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/alert-box-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-10T08:32:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: alert-box-block\n"
+
+#. Plugin Name of the plugin
+msgid "Alert Box Block"
+msgstr ""
+
+#. Description of the plugin
+msgid "Provide contextual feedback messages with alert box block"
+msgstr ""
+
+#. Author of the plugin
+msgid "bPlugins LLC"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://bplugins.com"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7713
+msgid "General"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7714
+msgid "Success"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7715
+msgid "Info"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7716
+msgid "Warning"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7717
+msgid "Error"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7718
+msgid "Minimal"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7742
+msgid "Help"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7744
+msgid "Read Documentation"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7749
+msgid "Would you please rate us?"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7750
+msgid "We are new and we need your help to grow!🙏"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7756
+msgid "Alert Settings"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7758
+msgid "Type:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7817
+msgid "Some settings may change when type will be changed."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7819
+msgid "Width:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7820
+msgid "Keep width 0, to auto width."
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7822
+msgid "Alert Icon:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7824
+msgid "Alert Dismissible?"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7826
+msgid "Typography:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7830
+msgid "Padding:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7832
+msgid "Border:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7834
+msgid "Shadow:"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7841
+msgid "Alert Box in left"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7842
+msgid "Alert Box in center"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:7843
+msgid "Alert Box in right"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:8069
+msgid "Alert Message"
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "Alert Box"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "Provide contextual feedback messages."
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "alert box"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "alert box block"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "custom alert"
+msgstr ""

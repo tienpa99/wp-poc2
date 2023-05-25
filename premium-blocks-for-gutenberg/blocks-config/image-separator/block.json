@@ -1,0 +1,232 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "version": "0.1.0",
+    "name": "premium/image-separator",
+    "title": "Image Separator",
+    "description": "Separate between your Gutenberg sections using Premium Image Separator Block.",
+    "keywords": [
+        "image",
+        "seperator"
+    ],
+    "category": "premium-blocks",
+    "attributes": {
+        "blockId": {
+            "type": "string"
+        },
+        "iconAlign": {
+            "type": "object",
+            "default": {
+                "Desktop": "center",
+                "Tablet": "center",
+                "Mobile": "center"
+            }
+        },
+        "iconType": {
+            "type": "string",
+            "default": "image"
+        },
+        "imageID": {
+            "type": "number"
+        },
+        "imageURL": {
+            "type": "string",
+            "source": "attribute",
+            "attribute": "src",
+            "selector": ".premium-image-separator-container img"
+        },
+        "alt": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "img",
+			"attribute": "alt",
+			"default": ""
+		},
+        "link": {
+            "type": "boolean"
+        },
+        "url": {
+            "type": "string"
+        },
+        "gutter": {
+            "type": "number",
+            "default": -50
+        },
+        "imgFilter": {
+            "type": "object",
+            "default": {
+                "contrast": "100",
+                "blur": "0",
+                "bright": "100",
+                "saturation": "100",
+                "hue": "0"
+            }
+        },
+        "imgFilterHover": {
+            "type": "object",
+            "default": {
+                "contrast": "100",
+                "blur": "0",
+                "bright": "100",
+                "saturation": "100",
+                "hue": "0"
+            }
+        },
+        "linkTarget": {
+            "type": "boolean",
+            "default": false
+        },
+        "imgFit": {
+            "type": "string",
+            "value": "fill"
+        },
+        "imgMask": {
+            "type": "boolean",
+            "default": false
+        },
+        "imgMaskURL": {
+            "type": "string"
+        },
+        "imgMaskID": {
+            "type": "number"
+        },
+        "maskSize": {
+            "type": "string",
+            "default": "contain"
+        },
+        "maskPosition": {
+            "type": "string",
+            "default": "center center"
+        },
+        "iconStyles": {
+            "type": "array",
+            "default": [
+                {
+                    "advancedBorder": false,
+                    "icon": "dashicons admin-site",
+                    "iconColor": "",
+                    "iconBGColor": "",
+                    "iconColorHover": "",
+                    "iconBGColorHover": "",
+                    "advancedBorderValue": "",
+                    "imgHeightType": "px"
+                }
+            ]
+        },
+        "icons": {
+            "type": "array",
+            "default": [
+                {
+                    "iconn": "dashicons admin-site",
+                    "link": "",
+                    "target": "_self",
+                    "size": "200",
+                    "width": "2",
+                    "title": "",
+                    "style": "default"
+                }
+            ]
+        },
+        "iconSize": {
+            "type": "object",
+            "default": {
+                "Desktop": "200",
+                "Tablet": "",
+                "Mobile": "",
+                "unit": "px"
+            }
+        },
+        "imgHeight": {
+            "type": "object",
+            "default": {
+                "Desktop": "200",
+                "unit": "px"
+            }
+        },
+        "iconBorder": {
+            "type": "object",
+            "default": {
+                "borderType": "none",
+                "borderColor": "",
+                "borderWidth": {
+                    "Desktop": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                },
+                "borderRadius": {
+                    "Desktop": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Tablet": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    },
+                    "Mobile": {
+                        "top": "",
+                        "right": "",
+                        "bottom": "",
+                        "left": ""
+                    }
+                }
+            }
+        },
+        "hideDesktop": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideTablet": {
+            "type": "boolean",
+            "default": ""
+        },
+        "hideMobile": {
+            "type": "boolean",
+            "default": ""
+        },
+        "iconPadding": {
+            "type": "object",
+            "default": {
+                "Desktop": {
+                    "top": ".1",
+                    "right": ".1",
+                    "bottom": ".1",
+                    "left": ".1"
+                },
+                "Tablet": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "Mobile": {
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": ""
+                },
+                "unit": "em"
+            }
+        }
+    },
+    "editorScript": "pbg-blocks-js",
+    "editorStyle": "premium-blocks-editor-css"
+}

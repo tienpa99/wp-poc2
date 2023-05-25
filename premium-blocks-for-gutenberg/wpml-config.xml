@@ -1,0 +1,81 @@
+<wpml-config>
+    <gutenberg-blocks>
+        <gutenberg-block type="premium/accordion" translate="1">
+            <xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
+            <xpath>//p[@class='premium-accordion__desc']</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/banner" translate="1">
+            <xpath>//img[@class='premium-banner__img']/@alt</xpath>
+            <xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
+            <xpath>//p[@class='premium-banner__desc']</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/button" translate="1">
+            <xpath>//a/@href</xpath>
+            <xpath>//a</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/countup" translate="1">
+            <xpath>//p</xpath>
+            <xpath>//h3</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/dheading-block" translate="1">
+            <xpath>//span</xpath>
+            <xpath>//a/@href</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/heading" translate="1">
+            <xpath>//span</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/icon" translate="1">
+            <xpath>//a/@href</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/icon-box" translate="1">
+            <xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
+            <xpath>//p</xpath>
+            <xpath>//a</xpath>
+            <xpath>//a/@href</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/maps" translate="1">
+            <xpath>//h3[@class="premium-maps__title"]</xpath>
+            <xpath>//div[@class="premium-maps__wrap__desc"]</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/pricing-table" translate="1">
+            <xpath>//span</xpath>
+            <xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
+            <xpath>//strike</xpath>
+            <xpath>//a/@href</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/container" translate="0"></gutenberg-block>
+        <gutenberg-block type="premium/testimonial" translate="1">
+            <xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
+            <xpath>//a/@href</xpath>
+            <xpath>//p</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/video-box" translate="0"></gutenberg-block>
+        <gutenberg-block type="premium/fancy-text" translate="1">
+            <xpath>//span</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/lottie" translate="1">
+            <xpath>//a/@href</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/modal" translate="1">
+            <xpath>//a/@href</xpath>
+            <xpath>//span</xpath>
+            <xpath>//h3[@class="premium-modal-box-modal-title"]</xpath>
+            <xpath>//img[@class='premium-modal-trigger-img']/@alt</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/image-separator" translate="1">
+            <xpath>//img/@alt</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/bullet-list" translate="1">
+            <xpath>//span</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/person" translate="1">
+            <xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
+			<xpath>//span[@class="premium-person__desc"]</xpath>
+            <xpath>//img/@alt</xpath>
+        </gutenberg-block>
+        <gutenberg-block type="premium/content-switcher" translate="1">
+            <xpath>//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]</xpath>
+            <xpath>//div</xpath>
+        </gutenberg-block>
+    </gutenberg-blocks>
+</wpml-config>

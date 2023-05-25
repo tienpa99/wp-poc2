@@ -1,0 +1,91 @@
+@set borderRadius 3px;
+@set borderRadiusUp 3px 3px 0 0;
+@set borderRadiusDown 0 0 3px 3px;
+@set borderRadiusLeft 3px 0 0 3px;
+@set borderRadiusRight 0 3px 3px 0;
+
+
+/* Colors */
+@set lightFontColor #222;
+@set darkFontColor #fff;
+@set accentColor #2196f3;
+@set accentBright #38a1f4;
+@set accentDark #0367B4;
+
+@set alternateColor #ff7f00;
+@set alternateBright #FFB918;
+@set alternateDark #F9AD00;
+
+@set contrastFontColor #fff;
+
+@set paleBgColor #f2f8ff;
+
+@set innerBorderColor #eee;
+
+@set dragColor #d4e7f6;
+
+@set iconCircle #b2b2b2;
+
+@set orderCircle #bbb;
+
+@set rowBorder #e0e0e0;
+
+@set foldedColor #eee;
+
+:host {
+	all: initial; 
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-size: 13px;
+	color: #777;
+	input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+		box-shadow: 0 0 0 transparent;
+		border-radius: 4px;
+		border: 1px solid #8c8f94;
+		background-color: #fff;
+		color: #2c3338;
+		&:focus, &:focus-visible {
+			border-color: #2271b1;
+			box-shadow: 0 0 0 1px #2271b1;
+			outline: 2px solid transparent;
+		}
+	}
+	input.disabled, input:disabled, select.disabled, select:disabled, textarea.disabled, textarea:disabled {
+		background: rgba(255,255,255,.5);
+		border-color: rgba(220,220,222,.75);
+		-webkit-box-shadow: inset 0 1px 2px rgb(0 0 0 / 4%);
+		box-shadow: inset 0 1px 2px rgb(0 0 0 / 4%);
+		color: rgba(44,51,56,.5);
+	}
+	.button, .button-primary, .button-secondary {
+		display: inline-block;
+		text-decoration: none;
+		font-size: 13px;
+		line-height: 2.15384615;
+		min-height: 30px;
+		margin: 0;
+		padding: 0 10px;
+		cursor: pointer;
+		border-width: 1px;
+		border-style: solid;
+		-webkit-appearance: none;
+		border-radius: 3px;
+		white-space: nowrap;
+		box-sizing: border-box;
+	}
+	.button, .button-secondary {
+		color: #2271b1;
+		border-color: #2271b1;
+		background: #f6f7f7;
+		vertical-align: top;
+	}
+	#bt_bb_fe_dialog_content_wrapper {
+		transition: none;
+	}
+}
+
+
+/* Dialog */
+@import url("../dialog.css");
+
+/* Controls */
+@import url("../controls.css"); 

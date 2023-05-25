@@ -1,0 +1,1444 @@
+# Copyright (C) 2023 QuadLayers
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Feed Gallery 4.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/insta-gallery\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-10T22:38:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: insta-gallery\n"
+
+#. Plugin Name of the plugin
+#: build/gutenberg/js/index.js:2
+msgid "Social Feed Gallery"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://quadlayers.com/portfolio/instagram-feed-gallery/"
+msgstr ""
+
+#. Description of the plugin
+#: build/gutenberg/js/index.js:2
+msgid "Display beautiful and responsive galleries on your website from your Instagram feed account."
+msgstr ""
+
+#. Author of the plugin
+msgid "QuadLayers"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://quadlayers.com"
+msgstr ""
+
+#: compatibility/widget.php:16
+msgid "Displays your Instagram gallery"
+msgstr ""
+
+#: compatibility/widget.php:64
+msgid "Title"
+msgstr ""
+
+#: compatibility/widget.php:68
+msgid "Select your Instagram gallery"
+msgstr ""
+
+#: compatibility/widget.php:81
+msgid "Please add new gallery in plugin admin panel, then come back and select your gallery to here."
+msgstr ""
+
+#: compatibility/widget.php:85
+msgid "Add New Gallery"
+msgstr ""
+
+#: lib/api/fetch/business/class-base.php:40
+#: lib/api/fetch/personal/class-base.php:38
+msgid "Unexpected error! Please reload the page."
+msgstr ""
+
+#: lib/api/fetch/business/class-base.php:44
+#: lib/api/fetch/business/hashtag-id/class-get.php:96
+#: lib/api/fetch/personal/class-base.php:43
+#: lib/api/rest/endpoints/backend/settings/class-save.php:35
+msgid "Unknown error."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-create.php:21
+msgid "access_token not setted."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-create.php:28
+msgid "id not setted."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-create.php:45
+msgid "Unable to create account."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-delete.php:28
+msgid "Can't delete account, account_id not found"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/accounts/class-get.php:39
+msgid "Account %s not found."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-clear-cache.php:21
+#: lib/api/rest/endpoints/frontend/class-hashtag-media.php:22
+#: lib/api/rest/endpoints/frontend/class-user-media.php:24
+#: lib/api/rest/endpoints/frontend/class-user-profile.php:23
+msgid "Bad Request, feed settings not found."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-clear-cache.php:31
+#: lib/api/rest/endpoints/backend/feeds/class-delete.php:43
+#: lib/api/rest/endpoints/frontend/class-hashtag-media.php:36
+#: lib/api/rest/endpoints/frontend/class-user-media.php:35
+msgid "Bad Request, feed settings attributes not setted."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-clear-cache.php:47
+#: lib/api/rest/endpoints/backend/feeds/class-delete.php:59
+msgid "Bad Request, feed tag not setted."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-clear-cache.php:54
+#: lib/api/rest/endpoints/backend/feeds/class-delete.php:66
+msgid "Bad Request, feed order by not setted."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-create.php:22
+#: lib/api/rest/endpoints/backend/feeds/class-edit.php:23
+msgid "Feed not setted"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-create.php:34
+#: lib/api/rest/endpoints/backend/settings/class-get.php:24
+msgid "Unknown error"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-delete.php:22
+msgid "Feed id not found."
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-delete.php:36
+msgid "Can't delete feed, feed_id not found"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-edit.php:36
+msgid "Feed can not be updated"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-get.php:26
+msgid "Feeds empty"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/feeds/class-get.php:36
+msgid "Feed %s not found"
+msgstr ""
+
+#: lib/api/rest/endpoints/backend/settings/class-save.php:23
+msgid "Settings not saved."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/class-hashtag-media.php:44
+msgid "Feed hashtag not setted."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/class-hashtag-media.php:89
+msgid "Account id %s not found to fetch hashtag media."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/class-hashtag-media.php:101
+msgid "The account must be business to show a hashtag feed."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/class-user-media.php:76
+msgid "Account id %s not found to fetch user media."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/class-user-media.php:98
+#: lib/api/rest/endpoints/frontend/class-user-media.php:124
+msgid "Feed has not elements."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/class-user-profile.php:32
+msgid "Bad Request, feed account id not found."
+msgstr ""
+
+#: lib/api/rest/endpoints/frontend/class-user-profile.php:62
+msgid "Account id %s not found to fetch user profile."
+msgstr ""
+
+#: lib/backend/class-load.php:49
+#: lib/backend/class-load.php:50
+#: build/backend/js/index.js:2
+msgid "Welcome"
+msgstr ""
+
+#: lib/backend/class-load.php:57
+#: lib/backend/class-load.php:58
+#: build/backend/js/index.js:2
+msgid "Accounts"
+msgstr ""
+
+#: lib/backend/class-load.php:65
+#: lib/backend/class-load.php:66
+#: build/backend/js/index.js:2
+msgid "Feeds"
+msgstr ""
+
+#: lib/backend/class-load.php:73
+#: lib/backend/class-load.php:74
+#: vendor_packages/wp-plugin-table-links.php:8
+#: build/backend/js/index.js:2
+msgid "Settings"
+msgstr ""
+
+#: lib/backend/class-load.php:81
+#: lib/backend/class-load.php:84
+#: vendor_packages/wp-plugin-table-links.php:13
+#: build/backend/js/index.js:2
+msgid "Premium"
+msgstr ""
+
+#: lib/class-plugin.php:39
+msgid "Every fifty days"
+msgstr ""
+
+#: lib/class-plugin.php:60
+msgid "Hi! We would like to inform you that the business account token that you are using in Quadlayers - Social Feed Gallery is going to expire."
+msgstr ""
+
+#: lib/class-plugin.php:61
+#: lib/class-plugin.php:67
+msgid "Your business account is going to expire"
+msgstr ""
+
+#: lib/class-plugin.php:66
+msgid "Hi! We would like to inform you that the business account token that you are using in Quadlayers - Social Feed Gallery is going to expire. Please sing in again to keep the plugin working. "
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:24
+msgid "TikTok Feed is the most user-friendly TikTok plugin for WordPress. It was built to simplify the integration, to reduce time to have sites updated and to be on track with social media that shows best growing indicators."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:31
+msgid "Social Chat allows your users to start a conversation from your website directly to your WhatsApp phone number with one click."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:42
+msgid "Hello! Thank you for choosing the %s plugin!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:48
+msgid "Could you please give it a 5-star rating on WordPress?. Your feedback will boost our motivation and help us promote and continue to improve this product."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:50
+msgid "Yes, of course!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:55
+msgid "Report a bug"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:63
+#: build/backend/js/index.js:2
+msgid "Purchase Now"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:69
+msgid "Hello! We have a special gift!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:74
+msgid "Today we want to make you a special gift. Using the coupon code %1$s before the next 48 hours you can get a 20 percent discount on the premium version of the %2$s plugin."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:82
+#: vendor_packages/wp-notice-plugin-promote.php:100
+#: vendor_packages/wp-notice-plugin-promote.php:118
+msgid "More info!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:92
+#: vendor_packages/wp-notice-plugin-promote.php:110
+msgid "Hello! We want to invite you to try our %s plugin!"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:18
+#: build/backend/js/index.js:2
+msgid "Support"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:23
+#: build/backend/js/index.js:2
+msgid "Documentation"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Demo"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Business"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Hi! We are Quadlayers, we are expanding our products portfolio, according to social trends!  So… enjoy our first version of %s. We are developing new features"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Thank you for choosing our %s plugin for WordPress! Here you can see our demo and test the features we offer in the premium version."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "View demo"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "If you have any doubt or you find any issue don't hesitate to contact us through our ticket system or join our community to meet other %s users."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Submit ticket"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Comunnity"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "If you want to get in touch with other %s users or be aware of our promotional discounts join our community now."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Join our community"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Loading…"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Access token copied to clipboard."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Can't copy the access token."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "You are about to delete the %s account."
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Add Personal Account"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Add Business Account"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Button not working?"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Multiple user accounts and business acccounts are premium features."
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Image"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Username"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Account"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Access Token"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Type"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Date"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Action"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Manually connect an account"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Account ID:"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Enter a user id"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Get access token"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Access Token:"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Enter a valid access token"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Once you click the button you'll be prompted to log into your Instagram account and authorize the website to read your information. Once authorized you'll be returned back to this page with both your Access Token and User ID."
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "General"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Profile"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Carousel"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Box"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Image Card"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Image Modal"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Button"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Button Load More"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Save"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Close"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Edit previous media item"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Edit next media item"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Close dialog"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Edit feed # %s"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "New"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Select"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Select logo"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Remove"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Change"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Select image"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Please select an account"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Please select an Instagram account"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "No Instagram account connected. Please connect your account "
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "here."
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Feed"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Hashtag"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Tag option is only available for bussiness account tokens."
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Tag"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Please enter Instagram tag"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Order by"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Recent (Within 24 hours)"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Top (Most popular first)"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Please enter Instagram tag order"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Due to the restrictions of the new Instagram API the recent order will only return the most recent images from the past 24 hours."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Due to the restrictions of the new Instagram "
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "API"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid " it is necessary to connect a business account "
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "(Premium)"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Hide feeds reels"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Hide reels from feed"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Hide feeds copyright"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Hide the feeds that have copyright"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Copyrighted images are excluded from the Instagram API. We offer you the option to display a placeholder or hide this item."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Upload placeholder"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Upload an image to replace the default placeholder"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Upload an image via url"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Limit"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Number of images to display"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Columns"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Number of images in a row"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Highlight by tag"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Highlight feeds items with this tags"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "(This is a premium feature)"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Highlight by id"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Highlight feeds items with this ids"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Highlight by position"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Highlight feeds items in this positions"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display the Instagram Feed inside a customizable box"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Box padding"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Add padding to the Instagram Feed"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Box radius"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Add radius to the Instagram Feed"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Box background"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed on box background"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Box text color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed on box text"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Slides per view"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Number of images per slide"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Autoplay"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Autoplay carousel items"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Autoplay Interval"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Moves to next picture after specified time interval"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Navigation"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display navigation arrows"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Navigation color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Change navigation arrows color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Pagination"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display pagination dots"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Pagination color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Change pagination dotts color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images spacing"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Add blank space between images"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Image lazy load"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Defers feed image lazy"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images mask"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Image mouseover effect"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images mask color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Image mask background color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Likes and comments options are only available for business account."
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images mask likes"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display likes count of images"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images mask comments"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display comments count of images"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Images Card"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display card gallery by clicking on image"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card radius"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card font size"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Add font-size to the Instagram Feed"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card background"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed when over card"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card background hover"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed when hovered over card"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card text color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Color text"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card padding"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card likes"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card Comments"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Card length"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Limit the length of the card text"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images popup"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display popup gallery by clicking on image"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images popup profile"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display user profile or tag info"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images description"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Allow description in the popup"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images popup likes"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images popup comments"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Images popup align"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Left"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Center"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Right"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Align item description in popup"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Instagram button"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Display the button to open Instagram site link"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Instagram button text"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Instagram button text here"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Text button color"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed on text button"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Instagram button background"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed on button background"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Instagram button hover background"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Color which is displayed when hovered over button"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Display the button to load more videos"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Full Name"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Feed profile full name"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Follow text"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Follow text here"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Website"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Website url here"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Website link text"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Website link text here"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Biography"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Feed profile biography"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Profile description here"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "+ Feed"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Go to the Accounts tab and create your access token."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Layout"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Shortcode"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Actions"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Feed shortcode copied to clipboard."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Edit feed"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Clear feed cache"
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "You are about to reset the cache of this feed."
+msgstr ""
+
+#: build/backend/js/index.js:2
+#: build/gutenberg/js/index.js:2
+msgid "Cache"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Delete feed"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "You are about to delele this feed."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Unlock the power of our premium %s plugin which allows you to choose between six beautiful layouts and tone of customizing options."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Multiple account"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Include unlimited user accounts and create feeds galleries for different users with their own layout and settings."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Customize colors"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Customize the colors of the Instagram Feed with a custom background, padding, and a rounded border. It also includes the user or tag profile info in the header of the box"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Load more button"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Allow your users to load more images in the gallery providing an improved user experience."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "More content"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Include some extra content for the images and the images popup."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Our premium version allows you to include a beautiful card around the video where you can display the number of comments, likes, and video descriptions."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Layouts"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Unlock the power of the masonry and highlight layouts that allows you to display the Instagram Feeds in a grid that supports items of variable size."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Masonry layout"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "The masonry layout is a grid that displays the images with a fixed with and variable height size"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Highlight layout"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "The highlight layout is a masonry grid that allows you to stand out some images with two or three columns width size."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Cache Expiration"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Reset your Instagram feeds cache every x hours."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Notification Email"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Add email to notify about account expiration."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Replace Loader"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Select an image from media library to replace the default loader icon."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Remove data"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Check this box to remove all data related to this plugin on uninstall."
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Privacy Policy"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Install"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Active"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "No name availabe"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "No description availabe"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Install %s"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "More info %s"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "More Details"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "By"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "5.0 rating based on %s ratings"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Last Updated: %s"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Today"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "%s Months Ago"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "%s Days Ago"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Active Installations"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Compatible"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid " with the version %s"
+msgstr ""
+
+#: build/backend/js/index.js:2
+msgid "Suggestions"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Please select Instagram account"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Upload"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid " Upload an image via url"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Number of videos to display"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Number of videos in a row"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid " highlight by tag"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "highlightfeeds items with this tags"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid " highlight by id"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid " highlight by position"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "highlightfeeds items in this positions"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Change pagination dots color"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Full name"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Website url"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Border Radius"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Images lazy load"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Defers feed images loading"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Image card"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Images card"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Color Text"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Image popup"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Botton"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Botton load more"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Please create access token"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Before start creating feeds, you have to create an access token. Please go to the account tab to connect your Instagram account and then reload this page."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Please select account"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "Before start creating feeds, you have to select your Instagram account."
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "qligg"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "instagram"
+msgstr ""
+
+#: build/gutenberg/js/index.js:2
+msgid "quadlayers"
+msgstr ""
+
+#: build/store/js/index.js:1
+msgid "The account has been updated successfully."
+msgstr ""
+
+#: build/store/js/index.js:1
+msgid "The account %s has been deleted."
+msgstr ""
+
+#: build/store/js/index.js:1
+msgid "The feed has been created successfully."
+msgstr ""
+
+#: build/store/js/index.js:1
+msgid "The feed %s has been deleted."
+msgstr ""
+
+#: build/store/js/index.js:1
+msgid "The feed has been updated successfully."
+msgstr ""
+
+#: build/store/js/index.js:1
+msgid "Settings saved."
+msgstr ""

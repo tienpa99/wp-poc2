@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "pblocksfont";
+    src:  url('../fonts/pblocksfont.eot?i0fmp2');
+    src:  url('../fonts/pblocksfont.eot?i0fmp2#iefix') format('embedded-opentype'),
+      url('../fonts/pblocksfont.ttf?i0fmp2') format('truetype'),
+      url('../fonts/pblocksfont.woff?i0fmp2') format('woff'),
+      url('../fonts/pblocksfont.svg?i0fmp2#pblocksfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'pgiconfont';
+  src:  url('../fonts/pgiconfont.eot?wdzmdv');
+  src:  url('../fonts/pgiconfont.eot?wdzmdv#iefix') format('embedded-opentype'),
+    url('../fonts/pgiconfont.ttf?wdzmdv') format('truetype'),
+    url('../fonts/pgiconfont.woff?wdzmdv') format('woff'),
+    url('../fonts/pgiconfont.svg?wdzmdv#pgiconfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.toplevel_page_pb_panel>div.wp-menu-image::before {
+    position: relative;
+    /* top: 5px; */
+    content: "\e900";
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'pgiconfont' !important;
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 21px;
+}

@@ -1,0 +1,104 @@
+{
+	"apiVersion": "1",
+	"name": "abb/alert-box",
+	"title": "Alert Box",
+	"description": "Provide contextual feedback messages.",
+	"category": "widgets",
+	"keywords": [
+		"alert box",
+		"alert box block",
+		"custom alert"
+	],
+	"textdomain": "alert-box-block",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"type": {
+			"type": "string",
+			"default": "general"
+		},
+		"width": {
+			"type": "string",
+			"default": "100%"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"message": {
+			"type": "string",
+			"default": "You have an alert message!",
+			"selector": ".abbAlertBox .alert .alertMessage"
+		},
+		"icon": {
+			"type": "object",
+			"default": {
+				"class": "fa fa-exclamation-circle"
+			}
+		},
+		"isDismiss": {
+			"type": "boolean",
+			"default": true
+		},
+		"typography": {
+			"type": "object",
+			"default": {
+				"fontSize": {
+					"desktop": 25,
+					"tablet": 22,
+					"mobile": 20
+				}
+			}
+		},
+		"colors": {
+			"type": "object",
+			"default": {
+				"color": "#333",
+				"bg": "#fff"
+			}
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "15px",
+				"horizontal": "30px"
+			}
+		},
+		"border": {
+			"type": "object",
+			"default": {
+				"width": "2px",
+				"color": "#333",
+				"radius": "8px"
+			}
+		},
+		"shadow": {
+			"type": "object",
+			"default": {}
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"editorScript": "file:dist/editor.js",
+	"script": "file:dist/script.js"
+}
